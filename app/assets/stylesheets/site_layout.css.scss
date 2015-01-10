@@ -1,0 +1,17 @@
+.last-page {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+}
+
+#news, #bios {
+  background: url(news_red.png) no-repeat;
+}
+
+#media, #contact-us {
+  background: url(media_yellow.png) no-repeat;
+}
+
+#photos {
+  background: url(photos_green.png) no-repeat;
+}
