@@ -14,9 +14,9 @@
 
     <div class="section">
 
-	    <div class="up-arrow">
-	      <a href="#home-page"><%= image_tag("scroll_up.png", height: '60', width: '60', alt:'Scroll Up Arrow Button') %></a>
-	    </div>
+	    <a href="#home-page">
+	    	<%= image_tag("scroll_up.png", :id => "up-button", height: '60', width: '60', alt:'Scroll Up Arrow Button') %>
+	    </a>
 
 	    <div class="last-page" id="news" data-anchor="news-section">
 	      <%= render "news" %>

@@ -15,3 +15,10 @@
 #photos {
   background: url(photos_green.png) no-repeat;
 }
+
+#up-button {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	z-index: 1;
+}
