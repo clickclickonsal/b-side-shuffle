@@ -14,4 +14,10 @@ $(document).ready(function() {
       }
     }
   });
+
+  $("#down-button").on("click", function(event){
+    event.preventDefault();
+
+    $.fn.fullpage.moveSectionDown();
+  });
 });
