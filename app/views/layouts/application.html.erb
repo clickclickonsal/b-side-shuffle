@@ -16,15 +16,22 @@
 
       <li class="record-player-small">
         <div>
-          <%= image_tag("small_record_menu_bar.png", :id => "small-record-disc") %>
+          <%= image_tag("small_record_menu_bar.png", :id => "small-record-disc", alt: "Spinning Record Disc in Nav Bar") %>
           <p id="title">B Side Shuffle
             <br />
             <span class="song-title">"Song Title"</span>
           </p>
           <div>
-            <a href="#"><%= image_tag("rewind_button.png") %></a>
-            <a href="#"><%= image_tag("play_button.png") %></a>
-            <a href="#"><%= image_tag("forward_button.png") %></a>
+            <a href="#">
+              <%= image_tag("rewind_button.png", alt: "Rewind Button") %>
+            </a>
+            <a href="#">
+              <%= image_tag("play_button.png", :id => "play-button", alt: "Play Button") %>
+              <%= image_tag("pause_button.png", :id => "pause-button", alt: "Pause Button") %>
+            </a>
+            <a href="#">
+              <%= image_tag("forward_button.png", alt: "Foward Button") %>
+            </a>
           </div>
         </div>
       </li>
