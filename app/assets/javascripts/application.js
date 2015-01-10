@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jQuerySlimScroll
+//= require fullPageMin
 //= require_tree .
