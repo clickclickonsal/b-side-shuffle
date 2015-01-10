@@ -1,1 +1,42 @@
-HELLO WORLD
+<div id="fullpage">
+
+  <div class="section" id="splash-page" data-anchor="home-page">
+    	<%= image_tag("turntable_full.png", :id => "record-box") %>
+
+    	<div class="record-disc">
+    		<%= image_tag("turntable_record.png", :id => "record-image") %>
+    	</div>
+
+    	<a href="#news-section">
+    		<%= image_tag("scroll-down.png", :id => "down-button", height: '60', width: '60', alt:'Scroll Down Arrow Button') %>
+    	</a>
+  </div>
+
+    <div class="section">
+
+	    <a href="#home-page">
+	    	<%= image_tag("scroll_up.png", :id => "up-button", height: '60', width: '60', alt:'Scroll Up Arrow Button') %>
+	    </a>
+
+	    <div class="last-page" id="news" data-anchor="news-section">
+	      <%= render "news" %>
+	    </div>
+
+	    <div class="last-page" id="media">
+	      <%#= render "media" %>
+	    </div>
+
+	    <div class="last-page" id="photos">
+	    	<!-- photos -->
+	    </div>
+
+	    <div class="last-page" id="bios">
+	    	<!-- Bios -->
+	    </div>
+
+	    <div class="last-page" id="contact-us">
+	    	<!-- Contact-US -->
+	    </div>
+	  </div>
+
+</div>
