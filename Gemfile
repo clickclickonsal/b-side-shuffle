@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "font-awesome-rails"
 gem 'figaro'
 gem 'nokogiri'
 gem 'foundation-rails'

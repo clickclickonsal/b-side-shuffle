@@ -31,15 +31,27 @@
 }
 
 .social-icons {
-  width: 3.5%;
-  padding: 0.4em;
+  width: 3.5em;
+  height: 3em;
+  // padding: 1em;
   float: right;
-
-  #facebook {
-    padding-right: 1em;
+  background: rgb(240,113,93);
+  margin: 0.5em;
+  border-radius: 0.5em;
+  transition: 1s;
+  
+  a {
+    line-height: 2em;
   }
 }
 
+#youtube {
+  margin-right: 2em;
+}
+
+.social-icons:hover {
+  background: red;
+}
 // img {
 //   position: absolute;
 //   top: 0%;
