@@ -4,13 +4,14 @@ $paragraph-font: 'Quicksand', sans-serif;
 .first-section {
 	padding-top: 6.5em;
 }
+
 .video {
 	margin-left: 2em;
 	background: $bg-div-color;
 	width: 40vw;
 	height: 50vh;
 	text-align: center;
-	border-radius: 0.3em;
+	border-radius: 0.5em;
 
 	p {
 		float: left;
@@ -24,5 +25,51 @@ $paragraph-font: 'Quicksand', sans-serif;
 	iframe {
 		width: 90%;
 		height: 80%;
+	}
+}
+
+.sign-up-div {
+	background: $bg-div-color;
+	width: 40vw;
+	border-radius: 0.5em;
+	text-align: center;
+	color: white;
+	font-family: $paragraph-font;
+	height: 20em;
+
+	h1, h2, h3 {
+		margin: 0;
+	}
+
+	h1 {
+		font-size: 3.7em;
+	}
+
+	h2 {
+		font-size: 2.5em;
+	}
+
+	h3 {
+		font-size: 2.1em;
+		padding-top: 1em;
+	}
+	form {
+
+		input:first-child {
+			font-size: 0.5em;
+			width: 50%;
+			height: 4vh;
+			border-radius: 0.5em;
+			font-size: 1em;
+		}
+
+		input[type=submit] {
+			background: #EA5A4B;
+			width: 20%;
+			height: 4.5vh;
+			color: white;
+			font-size: 1em;
+			border-radius: 0.2em;
+		}
 	}
 }
