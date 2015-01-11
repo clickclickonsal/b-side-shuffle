@@ -16,3 +16,4 @@
 //= require fullPageMin
 //= require snapPage
 //= require menuPlayerSoundCloud
+//= require signUpForm
