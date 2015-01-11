@@ -64,6 +64,12 @@
     float: left;
     position: relative;
 
+    p {
+      height: 2em;
+      width: 10em;
+      word-wrap: break-word;
+    }
+
     div {
       width: 20em;
       height: 5em;
@@ -102,9 +108,13 @@
   }
 }
 
+// .song-title {
+//   overflow: auto;
+// }
+
 #pause-button {
-  display: none;
   width: 1.5em;
+  display: none;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
