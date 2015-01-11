@@ -16,7 +16,7 @@
  *= require fixed-navbar
  *= require splash-page
  *= require site-layout
- *= require tree css-grid
+ *= require_tree ./css-grid 
  *= require news-page
  */
 .html, body {
