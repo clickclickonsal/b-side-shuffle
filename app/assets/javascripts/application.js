@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require jQuerySlimScroll
 //= require fullPageMin
-//= require_tree .
+//= require snapPage
+//= require menuPlayerSoundCloud

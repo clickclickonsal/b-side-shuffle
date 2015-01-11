@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem "autoprefixer-rails"
 gem "font-awesome-rails"
+gem "devise"
 gem "gon"
 gem 'figaro'
 gem 'nokogiri'

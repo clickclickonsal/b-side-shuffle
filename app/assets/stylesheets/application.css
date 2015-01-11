@@ -11,8 +11,11 @@
  * file per style scope.
  *
  *= require font-awesome
- *= require_tree .
  *= require_self
+ *= require cool-google-fonts
+ *= require fixed-navbar
+ *= require splash-page
+ *= require site-layout
  */
 .html, body {
   padding: 0;

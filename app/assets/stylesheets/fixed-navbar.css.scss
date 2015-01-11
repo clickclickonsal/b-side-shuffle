@@ -11,6 +11,8 @@
   ul {
     list-style-type: none;
     display: inline;
+    margin: 0;
+    padding: 0;
 
     li {
 
@@ -73,7 +75,7 @@
     div {
       width: 20em;
       height: 5em;
-      margin-top: 1em;
+      margin-top: -1em;
       text-align: center;
 
       img {
@@ -107,10 +109,6 @@
     }
   }
 }
-
-// .song-title {
-//   overflow: auto;
-// }
 
 #pause-button {
   width: 1.5em;
