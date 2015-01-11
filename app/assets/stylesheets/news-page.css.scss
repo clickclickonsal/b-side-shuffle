@@ -1,0 +1,28 @@
+$bg-div-color: rgba(6,7,6,0.80);
+$paragraph-font: 'Quicksand', sans-serif;
+
+.first-section {
+	padding-top: 6.5em;
+}
+.video {
+	margin-left: 2em;
+	background: $bg-div-color;
+	width: 40vw;
+	height: 50vh;
+	text-align: center;
+	border-radius: 0.3em;
+
+	p {
+		float: left;
+		margin: 0;
+		font-size: 2.5em;
+		padding: 0.4em 0 0.2em 1.2em;
+		color: white;
+		font-family: $paragraph-font;
+	}
+
+	iframe {
+		width: 90%;
+		height: 80%;
+	}
+}
