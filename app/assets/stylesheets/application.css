@@ -14,8 +14,8 @@
  *= require_self
  *= require cool-google-fonts
  *= require fixed-navbar
- *= require splash_page
- *= require site_layout
+ *= require splash-page
+ *= require site-layout
  */
 .html, body {
   padding: 0;
