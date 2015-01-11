@@ -64,6 +64,12 @@
     float: left;
     position: relative;
 
+    p {
+      height: 2em;
+      width: 10em;
+      word-wrap: break-word;
+    }
+
     div {
       width: 20em;
       height: 5em;
@@ -101,6 +107,10 @@
     }
   }
 }
+
+// .song-title {
+//   overflow: auto;
+// }
 
 #pause-button {
   width: 1.5em;

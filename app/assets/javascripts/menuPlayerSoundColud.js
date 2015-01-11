@@ -66,7 +66,7 @@ $(document).ready(function() {
 
     $("#play-button").hide();
     $("#pause-button").show();
-    
+
     currentSong++;
     if( currentSong === tracksArray.length){
       currentSong = 0;
@@ -91,6 +91,7 @@ $(document).ready(function() {
 
     getNextSong(currentSong);
     $(".song-title").html("\""+trackTitle+"\"")
+    
     player();
     playSong();
   })
