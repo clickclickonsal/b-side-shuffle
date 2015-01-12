@@ -8,15 +8,15 @@ $paragraph-font: 'Quicksand', sans-serif;
 .video {
 	margin-left: 2em;
 	background: $bg-div-color;
-	width: 40vw;
-	height: 50vh;
+	width: 90%;
+	height: 30em;
 	text-align: center;
 	border-radius: 0.5em;
 
 	p {
 		float: left;
 		margin: 0;
-		font-size: 2.5em;
+		font-size: 2em;
 		padding: 0.4em 0 0.2em 1.2em;
 		color: white;
 		font-family: $paragraph-font;
@@ -35,22 +35,22 @@ $paragraph-font: 'Quicksand', sans-serif;
 	text-align: center;
 	color: white;
 	font-family: $paragraph-font;
-	height: 20em;
+	height: 18em;
 
 	h1, h2, h3 {
 		margin: 0;
 	}
 
 	h1 {
-		font-size: 300%;
+		font-size: 3.5em;
 	}
 
 	h2 {
-		font-size: 250%;
+		font-size: 2.4em;
 	}
 
 	h3 {
-		font-size: 220%;
+		font-size: 2em;
 		padding-top: 1em;
 	}
 	form {
@@ -78,7 +78,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 		margin-left: 2em;
 		margin-top: 0.5em;
 		background: $bg-div-color;
-		width: 40vw;
+		width: 90%;
 		height: 20em;
 		border-radius: 0.5em;
 		color: white;
