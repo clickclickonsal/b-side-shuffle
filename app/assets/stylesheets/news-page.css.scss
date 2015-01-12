@@ -105,5 +105,32 @@ $paragraph-font: 'Quicksand', sans-serif;
 			&:last-child {
 				border-bottom: 0.2em solid white;
 			}
+
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding-top: 0.5em;
+
+				li {
+					float: left;
+					width: 33%;
+				}
+
+				li:last-child {
+					text-align: center;
+
+					button {
+						background: #EA5A4B;
+						width: 14em;
+						border-radius: 0.5em;
+
+						a {
+							text-decoration: none;
+							color: white;
+							font-size: 2em;
+						}
+					}
+				}
+			}
 		}
 	}
