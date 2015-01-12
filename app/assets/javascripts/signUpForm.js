@@ -2,8 +2,18 @@ $(document).ready(function() {
   $(".sign-up-form").on("submit", function(event){
 		event.preventDefault();
 
-		var input = $("#email-field").val();
+		var inputedEmail = $("#email-field").val();
 		$("#email-field").val('');
-		alert("Email Submitted Successfully!")
+
+		$.ajax({
+			url: "/email_lists",
+			method: "POST",
+			dataType: "json",
+			data: {email_list: {email_address: inputedEmail}},
+			success: function(data) {
+				alert("Email Submitted Successfully!");
+			}
+		});
+		
 	});
 });
