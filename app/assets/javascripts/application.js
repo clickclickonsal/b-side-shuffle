@@ -17,3 +17,4 @@
 //= require snapPage
 //= require menuPlayerSoundCloud
 //= require signUpForm
+//= require songKickData

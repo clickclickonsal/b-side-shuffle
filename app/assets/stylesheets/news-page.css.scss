@@ -73,3 +73,38 @@ $paragraph-font: 'Quicksand', sans-serif;
 		}
 	}
 }
+
+	.songkick {
+		margin-left: 2em;
+		margin-top: 0.5em;
+		background: $bg-div-color;
+		width: 40vw;
+		height: 20em;
+		border-radius: 0.5em;
+		color: white;
+		font-family: $paragraph-font;
+
+		p {
+			float: left;
+			margin: 0;
+			padding: 0.5em 0.5em 0.5em 1em;
+			width: 40%;
+			font-size: 2em;
+		}
+		img {
+			width: 40%;
+			padding: 1em;
+			float: right;
+		}
+		div {
+			clear: both;
+			width: 92%;
+			height: 18%;
+			border-top: 0.2em solid white;
+			margin: auto;
+
+			&:last-child {
+				border-bottom: 0.2em solid white;
+			}
+		}
+	}
