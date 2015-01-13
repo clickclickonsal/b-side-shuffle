@@ -16,6 +16,9 @@
  *= require fixed-navbar
  *= require splash-page
  *= require site-layout
+ *= require_tree ./css-grid 
+ *= require news-page
+ *= require media-queries
  */
 .html, body {
   padding: 0;

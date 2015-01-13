@@ -1,0 +1,157 @@
+$bg-div-color: rgba(6,7,6,0.80);
+$paragraph-font: 'Quicksand', sans-serif;
+
+.first-section {
+	padding-top: 6.5em;
+}
+
+.video {
+	margin-left: 2em;
+	background: $bg-div-color;
+	width: 90%;
+	height: 30em;
+	text-align: center;
+	border-radius: 0.5em;
+
+	p {
+		float: left;
+		margin: 0;
+		font-size: 2em;
+		padding: 0.4em 0 0.2em 1.2em;
+		color: white;
+		font-family: $paragraph-font;
+	}
+
+	iframe {
+		width: 90%;
+		height: 80%;
+	}
+}
+
+.sign-up-div {
+	background: $bg-div-color;
+	width: 90%;
+	border-radius: 0.5em;
+	text-align: center;
+	color: white;
+	font-family: $paragraph-font;
+	height: 15em;
+
+	h1, h2, h3 {
+		margin: 0;
+	}
+
+	h1 {
+		font-size: 3.2em;
+	}
+
+	h2 {
+		font-size: 2.2em;
+	}
+
+	h3 {
+		font-size: 1.8em;
+		padding-top: 0.2em;
+	}
+	form {
+
+		input:first-child {
+			font-size: 0.5em;
+			width: 50%;
+			height: 4vh;
+			border-radius: 0.5em;
+			font-size: 1em;
+		}
+
+		input[type=submit] {
+			background: #EA5A4B;
+			width: 20%;
+			height: 4.5vh;
+			color: white;
+			font-size: 1em;
+			border-radius: 0.2em;
+		}
+	}
+}
+
+.songkick {
+	margin-left: 2em;
+	background: $bg-div-color;
+	width: 90%;
+	height: 18.5em;
+	border-radius: 0.5em;
+	color: white;
+	font-family: $paragraph-font;
+
+	p {
+		float: left;
+		margin: 0;
+		padding: 0.5em 0.5em 0.5em 1em;
+		width: 40%;
+		font-size: 2em;
+	}
+	img {
+		width: 40%;
+		padding: 1em;
+		float: right;
+	}
+	div {
+		clear: both;
+		width: 92%;
+		height: 18%;
+		border-top: 0.2em solid white;
+		margin: auto;
+
+		&:last-child {
+			border-bottom: 0.2em solid white;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding-top: 0.5em;
+
+			li {
+				float: left;
+				width: 33%;
+			}
+
+			li:last-child {
+				text-align: center;
+
+				button {
+					background: #EA5A4B;
+					width: 14em;
+					border-radius: 0.5em;
+					transition: 1s;
+
+					a {
+						text-decoration: none;
+						color: white;
+						font-size: 2em;
+					}
+				}
+			}
+		}
+	}
+}
+
+.twitter-feed {
+		background: $bg-div-color;
+		margin-top: -14.4em;
+		width: 90%;
+		height: 32.99em;
+		border-radius: 0.5em;
+		text-align: center;
+		float: left;
+
+
+		p {
+			text-align: left;
+			color: white;
+			font-size: 2.2em;
+			margin: 0;
+			padding: 0.6em 0.6em 0.12em 0.6em;
+			font-family: $paragraph-font;
+		}
+	}
