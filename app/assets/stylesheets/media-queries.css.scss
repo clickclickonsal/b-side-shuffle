@@ -26,4 +26,19 @@
       padding-top: 1.5em;
     }
   }
+
+  .col > .songkick {
+
+    & > p {
+      font-size: 1.5em;
+    }
+
+    & > div > ul > li {
+      font-size: 0.8em;
+
+      & > button {
+        width: 8em;
+      }
+    }
+  }
 }
