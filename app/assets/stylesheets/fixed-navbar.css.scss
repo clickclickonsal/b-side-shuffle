@@ -96,10 +96,6 @@ $header-font: 'Viga', sans-serif;
     #small-record-disc {
       position: absolute;
       max-width: 100%;
-      -webkit-animation:spin 4s linear infinite;
-      -moz-animation:spin 4s linear infinite;
-      -o-animation:spin 4s linear infinite;
-      animation:spin 4s linear infinite;
     }
     #title {
       position: relative;
@@ -112,6 +108,13 @@ $header-font: 'Viga', sans-serif;
   }
 }
 
+.spin-record-js {
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  -o-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+    
 #pause-button {
   width: 1.5em;
   display: none;

@@ -28,6 +28,7 @@ $(document).ready(function() {
       sound = obj;
       is_playing = true;
     });
+    $("#small-record-disc").addClass("spin-record-js");
   }
 
   function player(){
@@ -35,6 +36,7 @@ $(document).ready(function() {
       if(is_playing){
         sound.pause();
         is_playing = false;
+        $("#small-record-disc").removeClass("spin-record-js");
       } 
       else {
         sound.play();
