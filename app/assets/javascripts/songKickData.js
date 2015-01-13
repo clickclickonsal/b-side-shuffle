@@ -6,8 +6,6 @@ $(document).ready(function() {
 		success: function(data){
 			var result = data.resultsPage.results.event
 			for(var r = 0; r < result.length; r++){
-
-			console.log(result[r].uri)
 				if( r === 0 ){
 					$("#first-show ").html("<li>"+result[r].start.date+"<br/>"+result[r].venue.displayName+"</li><li>"+result[r].location.city+"</li><li><button><a href='"+result[r].uri+"'>Tickets</a></button></li>");
 				}

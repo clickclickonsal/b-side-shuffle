@@ -21,9 +21,6 @@ $(document).ready(function() {
           js.id=id;
           js.src=p+"://platform.twitter.com/widgets.js";
           fjs.parentNode.insertBefore(js,fjs);
-          console.log(js)
-          console.log(fjs)
-          console.log(fjs.parentNode);
         }
         }(document,"script","twitter-wjs");
       }

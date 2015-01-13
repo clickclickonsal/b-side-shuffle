@@ -14,7 +14,6 @@ $(document).ready(function() {
     for (var i = 0; i < tracks.length; i++){
       tracksArray.push({"title": tracks[i].title, "id": tracks[i].id})
     }
-    console.log(tracksArray);
   });
 
   function getNextSong(num){
@@ -86,7 +85,6 @@ $(document).ready(function() {
     $("#pause-button").show();
 
     currentSong--;
-    console.log(currentSong)
     if( currentSong === -1 || currentSong === -2){
       currentSong = tracksArray.length -1;
     }
