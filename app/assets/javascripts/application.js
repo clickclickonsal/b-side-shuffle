@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require jQuerySlimScroll
 //= require fullPageMin
-//= require twitterWidget
 //= require snapPage
 //= require menuPlayerSoundCloud
 //= require signUpForm
