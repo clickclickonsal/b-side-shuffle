@@ -1,0 +1,25 @@
+$bg-div-color: rgba(6,7,6,0.80);
+$paragraph-font: 'Quicksand', sans-serif;
+
+#m-video-section {
+	margin-left: 2em;
+	border-radius: 0.5em;
+	width: 95%;
+	height: 30em;
+	background: $bg-div-color;
+}
+
+#blog-posts {
+	border-radius: 0.5em;
+	width: 90%;
+	height: 30em;
+	background: $bg-div-color;
+}
+
+#m-music-section {
+	background: $bg-div-color;
+	margin-left: 2em;
+	border-radius: 0.5em;
+	width: 94.5%;
+	height: 33em;
+}
