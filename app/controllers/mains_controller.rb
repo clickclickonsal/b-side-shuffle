@@ -4,6 +4,7 @@ class MainsController < ApplicationController
 		gon.soundcloud_key = ENV['soundcloud_client_id']
 		gon.songkick_key = ENV['song_kick_api']
 		@main = Main.last
+		@mains = Main.last(4)
 	end
 
 	def create

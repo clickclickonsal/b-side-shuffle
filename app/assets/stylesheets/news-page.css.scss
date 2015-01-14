@@ -29,6 +29,8 @@ $paragraph-font: 'Quicksand', sans-serif;
 }
 
 .sign-up-div {
+	padding: 0;
+	margin: 0;
 	background: $bg-div-color;
 	width: 90%;
 	border-radius: 0.5em;
@@ -51,14 +53,14 @@ $paragraph-font: 'Quicksand', sans-serif;
 
 	h3 {
 		font-size: 1.8em;
-		padding-top: 0.2em;
+		padding-top: 0.6em;
 	}
 	form {
 
 		input:first-child {
 			font-size: 0.5em;
 			width: 50%;
-			height: 4vh;
+			height: 2.5em;
 			border-radius: 0.5em;
 			font-size: 1em;
 		}
@@ -66,7 +68,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 		input[type=submit] {
 			background: #EA5A4B;
 			width: 20%;
-			height: 4.5vh;
+			height: 2.5em;
 			color: white;
 			font-size: 1em;
 			border-radius: 0.2em;
@@ -138,13 +140,12 @@ $paragraph-font: 'Quicksand', sans-serif;
 
 .twitter-feed {
 		background: $bg-div-color;
-		margin-top: -14.4em;
+		margin-top: -15em;
 		width: 90%;
-		height: 32.99em;
+		height: 33.49em;
 		border-radius: 0.5em;
 		text-align: center;
 		float: left;
-
 
 		p {
 			text-align: left;
