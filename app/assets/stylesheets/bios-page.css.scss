@@ -6,6 +6,39 @@ $paragraph-font: 'Quicksand', sans-serif;
 	padding-bottom: 1.5em;
 }
 
+.about-the-band-container {
+	margin-left: 2em;
+	border-radius: 1em;
+	width: 95%;
+	height: 25.5em;
+	background: $bg-div-color;
+	float: left;
+
+	p {
+		margin: 0;
+		color: white;
+		font-size: 2.1em;
+		padding: 0.6em 0.8em 0.3em 1em;
+		font-family: $paragraph-font;
+	}
+
+	div {
+		width: 100%;
+		margin-left: 2em;
+		color: white;
+
+		img {
+			float: left;
+		}
+
+		p {
+			float: left;
+			width: 60%;
+			font-size: 1.1em;
+		}
+	}
+}
+
 .members-bios-container {
 	margin-left: 2em;
 	border-radius: 1em;
@@ -28,21 +61,5 @@ $paragraph-font: 'Quicksand', sans-serif;
 			width: 20%;
 			float: left;
 		}
-	}
-}
-
-.about-the-band-container {
-	margin-left: 2em;
-	border-radius: 1em;
-	width: 95%;
-	height: 25.5em;
-	background: $bg-div-color;
-
-	p {
-		margin: 0;
-		color: white;
-		font-size: 2.1em;
-		padding: 0.6em 0.8em 0.3em 1em;
-		font-family: $paragraph-font;
 	}
 }
