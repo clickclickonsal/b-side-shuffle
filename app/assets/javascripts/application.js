@@ -18,4 +18,3 @@
 //= require menuPlayerSoundCloud
 //= require signUpForm
 //= require songKickData
-//= require tumblrData
