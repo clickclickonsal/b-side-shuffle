@@ -4,6 +4,7 @@ class MainsController < ApplicationController
 		gon.soundcloud_key = ENV['soundcloud_client_id']
 		gon.songkick_key = ENV['song_kick_api']
 		@tumblr_data = Main.tumblr_data
+		@tumblr_blog_image = Main.tumblr_blog_image
 		@main = Main.last
 		@mains = Main.last(4)
 	end

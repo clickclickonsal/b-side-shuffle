@@ -16,7 +16,11 @@
 			<p>Blog Posts</p>
 			<div class="blog-posts">
 				<% @tumblr_data.each do |tumblr| %>
-
+					<div>
+						<%= tumblr['title'] %>
+						<%= tumblr['body'] %>
+						<button><a href='<%= tumblr['post_url'] %>'>Read More</a></button>
+					</div>
 				<% end %>
 			</div>
 		</div>
