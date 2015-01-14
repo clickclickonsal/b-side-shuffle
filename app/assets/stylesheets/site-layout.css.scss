@@ -2,11 +2,17 @@
 	position: relative;
 	width: 100%;
 }
+#news {
+	height: 60em;
+}
+
+#bios {
+	height: 65em;
+}
 
 #news, #bios {
   background: url(news_red.png) no-repeat;
 	background-size: cover;
-	height: 60em;
 }
 
 #media, #contact-us {
