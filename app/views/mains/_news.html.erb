@@ -27,7 +27,17 @@
 		<div class="songkick">
 		 	<p>Tour Dates</p>
 		 	<%= image_tag("songkick.png") %>
-		 	<div><ul id="first-show"></ul></div>
+		 	<div>
+		 		<ul id="first-show">
+		 			<li>
+		 				<%= @songkick_data[0]["start"]["date"] %>
+		 				<br/>
+		 				<%= @songkick_data[0]["venue"]["displayName"] %>
+		 			</li>
+		 			<li><%= @songkick_data[0]["location"]["city"] %></li>
+		 			<li><button><a href="<%= @songkick_data[0]['uri'] %>" target='_blank'>Tickets</a></button></li>
+		 		</ul>
+		 	</div>
 		 	<div><ul id="second-show"></ul></div>
 		 	<div><ul id="third-show"></ul></div>
 	 	</div>

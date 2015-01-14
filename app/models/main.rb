@@ -3,8 +3,11 @@ require 'httparty'
 class Main < ActiveRecord::Base
 
 	def self.songkick_data
+		songkick_array =[]
 		response = HTTParty.get("http://api.songkick.com/api/3.0/artists/6404794/calendar.json?apikey=#{ENV['song_kick_api']}")
-		response['resultsPage']['results']['event']
+		songkick_array << response['resultsPage']['results']['event'][0]
+		songkick_array << response['resultsPage']['results']['event'][1]
+		songkick_array << response['resultsPage']['results']['event'][2]
 	end
 
 	def self.tumblr_data
