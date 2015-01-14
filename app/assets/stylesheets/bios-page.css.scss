@@ -1,0 +1,23 @@
+$bg-div-color: rgba(6,7,6,0.80);
+$paragraph-font: 'Quicksand', sans-serif;
+
+.fourth-section {
+	padding-top: 2em;
+	padding-bottom: 1.2em;
+}
+
+.members-bios-container {
+	margin-left: 2em;
+	border-radius: 1em;
+	width: 95%;
+	height: 32em;
+	background: $bg-div-color;
+}
+
+.about-the-band-container {
+	margin-left: 2em;
+	border-radius: 1em;
+	width: 95%;
+	height: 25.5em;
+	background: $bg-div-color;
+}
