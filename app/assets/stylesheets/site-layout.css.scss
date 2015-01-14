@@ -1,22 +1,24 @@
 .last-page {
 	position: relative;
-	height: 60em;
 	width: 100%;
 }
 
 #news, #bios {
   background: url(news_red.png) no-repeat;
 	background-size: cover;
+	height: 60em;
 }
 
 #media, #contact-us {
   background: url(media_yellow.png) no-repeat;
 	background-size: cover;
+	height: 70em;
 }
 
 #photos {
   background: url(photos_green.png) no-repeat;
 	background-size: cover;
+	height: 70em;
 }
 
 #up-button {

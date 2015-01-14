@@ -1,0 +1,108 @@
+$bg-div-color: rgba(6,7,6,0.80);
+$paragraph-font: 'Quicksand', sans-serif;
+
+// Maybe will want to add this line, need to see what UX'ers think
+// .second-section {
+// 	padding-top: 6em;
+// }
+
+#m-video-section {
+	margin-left: 2em;
+	border-radius: 1em;
+	width: 95%;
+	height: 33em;
+	background: $bg-div-color;
+
+	p {
+		margin: 0;
+		color: white;
+		font-family: $paragraph-font;
+		font-size: 2.1em;
+		padding: 0.6em 0.6em 0.12em 1em;
+	}
+
+	div {
+		text-align: center;
+
+		iframe {
+			width: 45%;
+			height: 12.5em;
+			margin-top: 1em;
+			margin-left: 0.5em;
+		}
+	}
+}
+
+#blog-container {
+	border-radius: 1em;
+	width: 88%;
+	height: 33em;
+	background: $bg-div-color;
+	font-family: $paragraph-font;
+
+	p {
+		margin: 0;
+		color: white;
+		font-size: 2.1em;
+		padding: 0.6em 0.8em 0.3em 1em;
+	}
+
+	.blog-posts {
+		color: white;
+		margin-left: 2em;
+
+		div {
+
+			h4 {
+				margin: 0;
+				font-size: 1.1em;
+				text-decoration: underline;
+				padding: 0.5em 0;
+			}
+
+			img {
+				width: 35%;
+			}
+
+			button {
+				background: #45B76D;
+				width: 14em;
+				border-radius: 0.7em;
+				transition: 1s;
+				margin-top: 0.6em;
+
+				a {
+					text-decoration: none;
+					color: white;
+					font-size: 2em;
+					font-family: $paragraph-font;
+				}
+			}
+		}
+	}
+}
+
+#m-music-section {
+	background: $bg-div-color;
+	margin-left: 2em;
+	border-radius: 1em;
+	width: 93.2%;
+	height: 31em;
+
+	p {
+		margin: 0;
+		color: white;
+		font-size: 2.1em;
+		padding: 0.6em 0.8em 0.3em 1em;
+	}
+
+	div {
+		width: 100%;
+		text-align: center;
+
+		iframe {
+			width: 95%;
+			height: 24.5em;
+		}
+	}
+}

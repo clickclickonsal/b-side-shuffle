@@ -1,0 +1,48 @@
+<div class="section-grid group second-section">
+
+	<div class="col span_3_of_5">
+		<div id="m-video-section">
+			<p>Videos</p>
+			<div>
+				<% @mains.each do |video| %>
+					<iframe src="//www.youtube.com/embed/<%= video.video_url %>" frameborder="0" background="black" allowfullscreen></iframe>
+				<% end %>
+			</div>
+		</div>
+	</div>
+
+	<div class="col span_2_of_5">
+		<div id="blog-container">
+			<p>Blog Posts</p>
+			<div class="blog-posts">
+				<div>
+					<img src='<%= @tumblr_blog_images[0] %>' />
+					<h4><%= @tumblr_data[0]['title'] %></h4>
+					<%= @tumblr_data[0]['body'][0..200] %>...
+					<br />
+					<button><a href='<%= @tumblr_data[0]['post_url'] %>' target="_blank">Read More</a></button>
+				</div>
+				<div>
+					<h4><%= @tumblr_data[1]['title'] %></h4>
+					<%= @tumblr_data[1]['body'][0..200] %>...
+					<br />
+					<button><a href='<%= @tumblr_data[1]['post_url'] %>' target="_blank">Read More</a></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="section-grid group">
+
+	<div class="col span_5_of_5">
+		<div id="m-music-section">
+			<p>Music</p>
+			<div>
+				<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/users/34132939" scrolling="no" frameborder="no"></iframe>
+			</div>
+		</div>
+	</div>
+
+</div>
