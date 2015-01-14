@@ -9,7 +9,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	margin-left: 2em;
 	border-radius: 1em;
 	width: 95%;
-	height: 54.5em;
+	height: 54em;
 	background: $bg-div-color;
 
 	p {
@@ -19,5 +19,14 @@ $paragraph-font: 'Quicksand', sans-serif;
 		padding: 0.4em 0 0.2em 1.2em;
 		color: white;
 		font-family: $paragraph-font;
+	}
+
+	div {
+		text-align: center;
+
+		iframe {
+			width: 95%;
+			height: 46em;
+		}
 	}
 }
