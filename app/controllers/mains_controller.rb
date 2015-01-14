@@ -3,7 +3,7 @@ class MainsController < ApplicationController
 	def index
 		gon.soundcloud_key = ENV['soundcloud_client_id']
 		gon.songkick_key = ENV['song_kick_api']
-		gon.tumblr_key = ENV['tumblr_oauth_consumer_key']
+		@tumblr_data = Main.tumblr_data
 		@main = Main.last
 		@mains = Main.last(4)
 	end
