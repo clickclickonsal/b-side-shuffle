@@ -15,18 +15,19 @@
 		<div id="blog-container">
 			<p>Blog Posts</p>
 			<div class="blog-posts">
-					<div>
-						<img src='<%= @tumblr_blog_images[0] %>' />
-						<%= @tumblr_data[0]['title'] %>
-						<%= @tumblr_data[0]['body'] %>
-						<button><a href='<%= @tumblr_data[0]['post_url'] %>'>Read More</a></button>
-					</div>
-					<div>
-						<img src='<%= @tumblr_blog_images[1] %>' />
-						<%= @tumblr_data[1]['title'] %>
-						<%= @tumblr_data[1]['body'] %>
-						<button><a href='<%= @tumblr_data[1]['post_url'] %>'>Read More</a></button>
-					</div>
+				<div>
+					<img src='<%= @tumblr_blog_images[0] %>' />
+					<h4><%= @tumblr_data[0]['title'] %></h4>
+					<%= @tumblr_data[0]['body'][0..200] %>...
+					<br />
+					<button><a href='<%= @tumblr_data[0]['post_url'] %>'>Read More</a></button>
+				</div>
+				<div>
+					<h4><%= @tumblr_data[1]['title'] %></h4>
+					<%= @tumblr_data[1]['body'][0..200] %>...
+					<br />
+					<button><a href='<%= @tumblr_data[1]['post_url'] %>'>Read More</a></button>
+				</div>
 			</div>
 		</div>
 	</div>

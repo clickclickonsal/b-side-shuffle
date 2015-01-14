@@ -38,17 +38,47 @@ $paragraph-font: 'Quicksand', sans-serif;
 	width: 88%;
 	height: 33em;
 	background: $bg-div-color;
+	font-family: $paragraph-font;
 
 	p {
 		margin: 0;
 		color: white;
-		font-family: $paragraph-font;
 		font-size: 2.1em;
-		padding: 0.6em 0.6em 0.12em 1em;
+		padding: 0.6em 0.8em 0.3em 1em;
 	}
 
 	.blog-posts {
 		color: white;
+		margin-left: 2em;
+
+		div {
+
+			h4 {
+				margin: 0;
+				font-size: 1.1em;
+				text-decoration: underline;
+				padding: 0.5em 0;
+			}
+
+			img {
+				width: 35%;
+			}
+
+			button {
+				background: #45B76D;
+				width: 14em;
+				border-radius: 0.7em;
+				transition: 1s;
+				margin-top: 0.6em;
+
+				a {
+					text-decoration: none;
+					color: white;
+					font-size: 2em;
+					font-family: $paragraph-font;
+				}
+			}
+		}
 	}
 }
 
