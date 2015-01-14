@@ -15,6 +15,7 @@
 		<div id="blog-container">
 			<p>Blog Posts</p>
 			<div class="blog-posts">
+			<%= @tumblr_blog_images.inspect %>
 				<% @tumblr_data.each do |tumblr| %>
 					<div>
 						<%= tumblr['title'] %>
