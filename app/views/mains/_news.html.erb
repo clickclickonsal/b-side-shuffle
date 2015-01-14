@@ -1,12 +1,10 @@
 <div class="section-grid group first-section">
-
 	<div class="col span_2_of_4">
 		<div class="video">
 			<p>Featured Video</p>
 	  	<iframe src="//www.youtube.com/embed/<%= @main.video_url %>" frameborder="0" background="black" allowfullscreen></iframe>
 	  </div>
 	</div>
-
 	<div class="col span_2_of_4 signup-section">
 		<div class="sign-up-div">
 		  	<h3>sign up FOR A FREE Download</h3>
@@ -18,31 +16,28 @@
 	    </form>
 	 	</div>
 	</div>
-
 </div>
 
 <div class="section-grid group">
-
 	<div class="col span_2_of_4">
 		<div class="songkick">
 		 	<p>Tour Dates</p>
 		 	<%= image_tag("songkick.png") %>
-		 	<div>
-		 		<ul id="first-show">
-		 			<li>
-		 				<%= @songkick_data[0]["start"]["date"] %>
-		 				<br/>
-		 				<%= @songkick_data[0]["venue"]["displayName"] %>
-		 			</li>
-		 			<li><%= @songkick_data[0]["location"]["city"] %></li>
-		 			<li><button><a href="<%= @songkick_data[0]['uri'] %>" target='_blank'>Tickets</a></button></li>
-		 		</ul>
-		 	</div>
-		 	<div><ul id="second-show"></ul></div>
-		 	<div><ul id="third-show"></ul></div>
+		 	<% @songkick_data.each do |songkick| %>
+			 	<div>
+			 		<ul>
+			 			<li>
+			 				<%= songkick["start"]["date"] %>
+			 				<br/>
+			 				<%= songkick["venue"]["displayName"] %>
+			 			</li>
+			 			<li><%= songkick["location"]["city"] %></li>
+			 			<li><button><a href="<%= songkick['uri'] %>" target='_blank'>Tickets</a></button></li>
+			 		</ul>
+			 	</div>
+			<% end %>
 	 	</div>
 	</div>
-
 	<div class="col span_2_of_4">
 		<div class="twitter-feed">
 			<p>Twitter Updates</p>
