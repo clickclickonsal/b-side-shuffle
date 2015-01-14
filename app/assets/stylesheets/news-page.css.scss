@@ -11,7 +11,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	width: 90%;
 	height: 30em;
 	text-align: center;
-	border-radius: 0.5em;
+	border-radius: 1em;
 
 	p {
 		float: left;
@@ -33,7 +33,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	margin: 0;
 	background: $bg-div-color;
 	width: 90%;
-	border-radius: 0.5em;
+	border-radius: 1em;
 	text-align: center;
 	color: white;
 	font-family: $paragraph-font;
@@ -66,12 +66,12 @@ $paragraph-font: 'Quicksand', sans-serif;
 		}
 
 		input[type=submit] {
-			background: #EA5A4B;
+			background: #EBB33A;
 			width: 20%;
-			height: 2.5em;
+			height: 2.7em;
 			color: white;
 			font-size: 1em;
-			border-radius: 0.2em;
+			border-radius: 0.5em;
 		}
 	}
 }
@@ -81,7 +81,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	background: $bg-div-color;
 	width: 90%;
 	height: 18.5em;
-	border-radius: 0.5em;
+	border-radius: 1em;
 	color: white;
 	font-family: $paragraph-font;
 
@@ -122,15 +122,16 @@ $paragraph-font: 'Quicksand', sans-serif;
 				text-align: center;
 
 				button {
-					background: #EA5A4B;
+					background: #EBB33A;
 					width: 14em;
-					border-radius: 0.5em;
+					border-radius: 0.7em;
 					transition: 1s;
 
 					a {
 						text-decoration: none;
 						color: white;
 						font-size: 2em;
+						font-family: $paragraph-font;
 					}
 				}
 			}

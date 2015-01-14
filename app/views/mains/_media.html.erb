@@ -1,17 +1,18 @@
-<div class="section-grid group">
+<div class="section-grid group second-section">
 
 	<div class="col span_3_of_5">
 		<div id="m-video-section">
 			<p>Videos</p>
-			<% @mains.each do |video| %>
-				<iframe src="//www.youtube.com/embed/<%= video.video_url %>" frameborder="0" background="black" allowfullscreen></iframe>
-			<% end %>
+			<div>
+				<% @mains.each do |video| %>
+					<iframe src="//www.youtube.com/embed/<%= video.video_url %>" frameborder="0" background="black" allowfullscreen></iframe>
+				<% end %>
+			</div>
 		</div>
 	</div>
 
 	<div class="col span_2_of_5">
 		<div id="blog-posts">
-			
 		</div>
 	</div>
 
@@ -19,7 +20,7 @@
 
 <div class="section-grid group">
 
-	<div class="col span_2_of_2">
+	<div class="col span_5_of_5">
 		<div id="m-music-section">
 		</div>
 	</div>
