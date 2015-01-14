@@ -15,14 +15,18 @@
 		<div id="blog-container">
 			<p>Blog Posts</p>
 			<div class="blog-posts">
-			<%= @tumblr_blog_images.inspect %>
-				<% @tumblr_data.each do |tumblr| %>
 					<div>
-						<%= tumblr['title'] %>
-						<%= tumblr['body'] %>
-						<button><a href='<%= tumblr['post_url'] %>'>Read More</a></button>
+						<img src='<%= @tumblr_blog_images[0] %>' />
+						<%= @tumblr_data[0]['title'] %>
+						<%= @tumblr_data[0]['body'] %>
+						<button><a href='<%= @tumblr_data[0]['post_url'] %>'>Read More</a></button>
 					</div>
-				<% end %>
+					<div>
+						<img src='<%= @tumblr_blog_images[1] %>' />
+						<%= @tumblr_data[1]['title'] %>
+						<%= @tumblr_data[1]['body'] %>
+						<button><a href='<%= @tumblr_data[1]['post_url'] %>'>Read More</a></button>
+					</div>
 			</div>
 		</div>
 	</div>
