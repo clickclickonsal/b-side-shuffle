@@ -2,8 +2,8 @@ $bg-div-color: rgba(6,7,6,0.80);
 $paragraph-font: 'Quicksand', sans-serif;
 
 .fourth-section {
-	padding-top: 2em;
-	padding-bottom: 1.2em;
+	padding-top: 3em;
+	padding-bottom: 1.5em;
 }
 
 .members-bios-container {
@@ -21,9 +21,13 @@ $paragraph-font: 'Quicksand', sans-serif;
 		font-family: $paragraph-font;
 	}
 
-	img {
-		width: 20%;
-		float: left;
+	div {
+		text-align: center;
+
+		img {
+			width: 20%;
+			float: left;
+		}
 	}
 }
 
