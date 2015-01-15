@@ -29,7 +29,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	}
 
 	div {
-		width: 80%;
+		width: 85%;
 		margin: auto;
 
 		label {
@@ -47,7 +47,6 @@ $paragraph-font: 'Quicksand', sans-serif;
 			height: 3em;
 			margin-bottom: 2em;
 			border-radius: 0.5em;
-			padding-left: 1em;
 		}
 
 		#message-field {
@@ -86,5 +85,69 @@ $paragraph-font: 'Quicksand', sans-serif;
 		font-size: 2.1em;
 		padding: 0.6em 0.8em 0.3em 1em;
 		font-family: $paragraph-font;
+	}
+	p {
+		margin: 0;
+		margin-left: 2.1em;
+		color: white;
+		font-size: 1em;
+		font-family: $paragraph-font;
+		padding-bottom: 1em;
+	}
+
+	.logos {
+
+		img {
+			margin-left: 2em;
+			width: 40%;	
+			float: left;
+		}
+		button {
+			margin-right: 2em;
+			float: right;
+			font-size: 1.2em;
+			padding: 0.5em;
+			width: 7em;
+			border-radius: 0.25em;
+			background: #EA5A4B;
+
+			a {
+				text-decoration: none;
+				font-family: $paragraph-font;
+				color: white;
+			}
+		}
+	}
+
+	.fonts {
+		clear: both;
+
+		p {
+			padding-top: 1em;
+			width: 50%;
+			float: left;
+		}
+
+		img {
+			width: 91%;
+			height: 16em;
+			margin-left: 2em;
+		}
+
+		button {
+			margin-right: 2em;
+			float: right;
+			font-size: 1.2em;
+			padding: 0.5em;
+			width: 7em;
+			border-radius: 0.25em;
+			background: #EA5A4B;
+
+			a {
+				text-decoration: none;
+				font-family: $paragraph-font;
+				color: white;
+			}
+		}
 	}
 }
