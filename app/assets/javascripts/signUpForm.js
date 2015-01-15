@@ -10,8 +10,11 @@ $(document).ready(function() {
 			method: "POST",
 			dataType: "json",
 			data: {email_list: {email_address: inputedEmail}},
-			success: function(data) {
+			success: function(){
 				alert("Email Submitted Successfully!");
+			},
+			error: function(){
+				alert("Please Enter an Email Address!");
 			}
 		});
 		

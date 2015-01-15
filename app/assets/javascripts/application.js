@@ -18,3 +18,4 @@
 //= require menuPlayerSoundCloud
 //= require signUpForm
 //= require soundCloudWidget
+//= require contactUsForm

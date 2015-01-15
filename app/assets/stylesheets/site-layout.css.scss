@@ -10,6 +10,14 @@
 	height: 65em;
 }
 
+#media {
+	height: 70em;
+}
+
+#contact-us {
+	height: 60em;
+}
+
 #news, #bios {
   background: url(news_red.png) no-repeat;
 	background-size: cover;
@@ -18,7 +26,6 @@
 #media, #contact-us {
   background: url(media_yellow.png) no-repeat;
 	background-size: cover;
-	height: 70em;
 }
 
 #photos {
