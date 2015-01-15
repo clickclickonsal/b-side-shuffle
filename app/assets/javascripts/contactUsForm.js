@@ -19,7 +19,10 @@ $(document).ready(function() {
 		  	$("#message-field").val('');
   			alert("Your Information has been successfully recieved and we will get back to you soon.");
   		},
-  		failure: function(data){
+  		failure: function(){
+  			alert("Uh oh! Something went wrong, please make sure all fields are filled out.")
+			},
+			error: function(){
   			alert("Uh oh! Something went wrong, please make sure all fields are filled out.")
 			}
   	});
