@@ -5,6 +5,9 @@
   .nav-links {
     width: 9%;
   }
+  #blog-container > div {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 1250px) {
@@ -12,15 +15,34 @@
     width: 7%;
   }
 
+  .record-player-small > div {
+    height: 16em;
+    width: 16em;
+    margin-top: -8.4em;
+
+    & > div {
+      margin-top: -1em;
+      margin-left: -2.1em;
+
+      img {
+        width: 1.5em;
+      }
+    }
+
+    & > #title {
+      font-size: 1.5em;
+      margin-top: 4.9em;
+      margin-left: 0.4em;
+    }
+  }
+
   .sign-up-div {
     h1 {
       font-size: 2.5em;
     }
-
     h2 {
       font-size: 1.7em;
     }
-
     h3 {
       font-size: 1.4em;
       padding-top: 1.5em;
@@ -28,17 +50,25 @@
   }
 
   .col > .songkick {
-
     & > p {
       font-size: 1.5em;
     }
-
     & > div > ul > li {
       font-size: 0.8em;
-
       & > button {
-        width: 8em;
+        width: 9em;
+        font-size: 0.8em;
       }
     }
+  }
+
+  #blog-container > div {
+    font-size: 0.8em;
+  }
+
+  .about-the-band-container > div > p {
+    float: right;
+    margin-right: 2.4em;
+    font-size: 1em;
   }
 }
