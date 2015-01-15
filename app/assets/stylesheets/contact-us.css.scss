@@ -151,3 +151,18 @@ $paragraph-font: 'Quicksand', sans-serif;
 		}
 	}
 }
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	div {
+		h2 {
+			text-align: center;
+			margin: 0;
+			padding: 0;
+			color: white;
+			font-size: 1.2em;
+		}
+	}	
+}
