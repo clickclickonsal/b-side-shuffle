@@ -5,6 +5,9 @@
   .nav-links {
     width: 9%;
   }
+  #blog-container > div {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 1250px) {
@@ -16,11 +19,9 @@
     h1 {
       font-size: 2.5em;
     }
-
     h2 {
       font-size: 1.7em;
     }
-
     h3 {
       font-size: 1.4em;
       padding-top: 1.5em;
@@ -32,13 +33,15 @@
     & > p {
       font-size: 1.5em;
     }
-
     & > div > ul > li {
       font-size: 0.8em;
-
       & > button {
         width: 8em;
       }
     }
+  }
+
+  #blog-container > div {
+    font-size: 0.8em;
   }
 }
