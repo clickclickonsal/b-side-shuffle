@@ -99,7 +99,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 
 		img {
 			margin-left: 2em;
-			width: 40%;	
+			max-width: 100%;	
 			float: left;
 		}
 		button {
@@ -130,7 +130,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 
 		img {
 			width: 91%;
-			height: 16em;
+			max-height: 22em;
 			margin-left: 2em;
 		}
 
@@ -142,6 +142,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 			width: 7em;
 			border-radius: 0.25em;
 			background: #EA5A4B;
+			margin-bottom: 1em;
 
 			a {
 				text-decoration: none;
