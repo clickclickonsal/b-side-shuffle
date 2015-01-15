@@ -47,10 +47,17 @@ $paragraph-font: 'Quicksand', sans-serif;
 			height: 3em;
 			margin-bottom: 2em;
 			border-radius: 0.5em;
+			padding-left: 1em;
 		}
 
 		#message-field {
-			height: 20em;
+			height: 14em;
+			font-size: 1.1em;
+			margin: 0;
+			margin-bottom: 1.2em;
+			padding-top: 0.6em;
+			margin-left: 0.2em;
+			resize: none;
 		}
 
 		#send-contact {
