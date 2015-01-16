@@ -19,3 +19,4 @@
 //= require signUpForm
 //= require soundCloudWidget
 //= require contactUsForm
+//= require membersBiosAnimation
