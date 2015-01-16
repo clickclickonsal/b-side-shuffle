@@ -46,6 +46,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	width: 95%;
 	height: 32em;
 	background: $bg-div-color;
+	overflow: hidden;
 
 	p {
 		margin: 0;
@@ -60,12 +61,50 @@ $paragraph-font: 'Quicksand', sans-serif;
 		float: left;
 
 		div {
+			transition: 1s;
 			width: 25%;
 			text-align: center;
 		}
 		img {
 			max-height: 400px;
 			padding-left: 2%;
+		}
+	}
+}
+
+.geoff-info-js {
+	display:none;
+	transition: 1s;
+}
+
+.members-bios-container-js {
+	div div{
+		width: 8%;
+
+		&:first-child {
+			width: 75%;
+		}
+		img {
+			float: left;
+		}
+		div {
+			float: left;
+			width: 70%;
+			max-height: 400px;
+			margin-left: 1em;
+			display: block;
+			h1 {
+				background: #EBB33A;
+				margin: 0;
+				padding: 0.2em;
+				color: white;
+				border-radius: 0.2em;
+			}
+			p {
+				font-size: 1.2em;
+				text-align: left;
+				padding:0;
+			}
 		}
 	}
 }

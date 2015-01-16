@@ -1,6 +1,12 @@
 $(document).ready(function() {
-  $(".members-photos").on("click", $(this), function(event){
+  $(".member-photos img").on("click", $(this), function(event){
   	event.preventDefault();
-  	console.log($(this));
+
+  	if($(".members-bios-container").hasClass("members-bios-container-js")){
+  		$(".members-bios-container").removeClass("members-bios-container-js");
+  	}
+  	else{
+  		$(".members-bios-container").addClass("members-bios-container-js");
+  	}
   });
 });
