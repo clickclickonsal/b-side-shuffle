@@ -45,4 +45,10 @@
 	position: absolute;
 	bottom: 1em;
 	right: 1em;
+  transition: 1s;
+  opacity: 0.7;
+}
+
+#down-button:hover {
+  opacity: 1;
 }

@@ -36,7 +36,13 @@
 
 #up-button {
 	position: absolute;
+	opacity: 0.70;
 	bottom: 1em;
 	right: 1em;
 	z-index: 1;
+	transition: 1s;
+}
+
+#up-button:hover {
+	opacity: 1;
 }
