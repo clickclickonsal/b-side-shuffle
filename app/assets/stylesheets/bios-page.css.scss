@@ -72,7 +72,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	}
 }
 
-.geoff-info-js {
+.geoff-info-js, .carter-info-js, .jasper-info-js, .nik-info-js {
 	display:none;
 	transition: 1s;
 }
@@ -80,32 +80,9 @@ $paragraph-font: 'Quicksand', sans-serif;
 .members-bios-container-js {
 	div div{
 		width: 8%;
-
-		// &:first-child {
-		// 	width: 75%;
-		// }
 		img {
 			float: left;
 		}
-		// div {
-		// 	float: left;
-		// 	width: 70%;
-		// 	max-height: 400px;
-		// 	margin-left: 1em;
-		// 	display: block;
-		// 	h1 {
-		// 		background: #EBB33A;
-		// 		margin: 0;
-		// 		padding: 0.2em;
-		// 		color: white;
-		// 		border-radius: 0.2em;
-		// 	}
-		// 	p {
-		// 		font-size: 1.2em;
-		// 		text-align: left;
-		// 		padding:0;
-		// 	}
-		// }
 	}
 }
 
@@ -120,12 +97,23 @@ $paragraph-font: 'Quicksand', sans-serif;
 			max-height: 400px;
 			margin-left: 1em;
 			display: block;
-			h1 {
+			div {
+				width: 100%;
+				font-size: 2em;
 				background: #EBB33A;
-				margin: 0;
-				padding: 0.2em;
+				font-family: $paragraph-font;
 				color: white;
 				border-radius: 0.2em;
+				padding: 0.2em;
+
+				a {
+					float: right;
+					margin-top: -1.2em;
+					background: #EBB33A;
+					text-decoration: none;
+					font-family: $paragraph-font;
+					color: white;
+				}
 			}
 			p {
 				font-size: 1.2em;
@@ -147,12 +135,23 @@ $paragraph-font: 'Quicksand', sans-serif;
 			max-height: 400px;
 			margin-left: 1em;
 			display: block;
-			h1 {
+			div {
+				width: 100%;
+				font-size: 2em;
 				background: #EBB33A;
-				margin: 0;
-				padding: 0.2em;
+				font-family: $paragraph-font;
 				color: white;
 				border-radius: 0.2em;
+				padding: 0.2em;
+
+				a {
+					float: right;
+					margin-top: -1.2em;
+					background: #EBB33A;
+					text-decoration: none;
+					font-family: $paragraph-font;
+					color: white;
+				}
 			}
 			p {
 				font-size: 1.2em;
@@ -174,12 +173,23 @@ $paragraph-font: 'Quicksand', sans-serif;
 			max-height: 400px;
 			margin-left: 1em;
 			display: block;
-			h1 {
+			div {
+				width: 100%;
+				font-size: 2em;
 				background: #EBB33A;
-				margin: 0;
-				padding: 0.2em;
+				font-family: $paragraph-font;
 				color: white;
 				border-radius: 0.2em;
+				padding: 0.2em;
+
+				a {
+					float: right;
+					margin-top: -1.2em;
+					background: #EBB33A;
+					text-decoration: none;
+					font-family: $paragraph-font;
+					color: white;
+				}
 			}
 			p {
 				font-size: 1.2em;
@@ -201,12 +211,23 @@ $paragraph-font: 'Quicksand', sans-serif;
 			max-height: 400px;
 			margin-left: 1em;
 			display: block;
-			h1 {
+			div {
+				width: 100%;
+				font-size: 2em;
 				background: #EBB33A;
-				margin: 0;
-				padding: 0.2em;
+				font-family: $paragraph-font;
 				color: white;
 				border-radius: 0.2em;
+				padding: 0.2em;
+
+				a {
+					float: right;
+					margin-top: -1.2em;
+					background: #EBB33A;
+					text-decoration: none;
+					font-family: $paragraph-font;
+					color: white;
+				}
 			}
 			p {
 				font-size: 1.2em;
