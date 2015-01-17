@@ -81,15 +81,123 @@ $paragraph-font: 'Quicksand', sans-serif;
 	div div{
 		width: 8%;
 
-		&:first-child {
-			width: 75%;
-		}
+		// &:first-child {
+		// 	width: 75%;
+		// }
 		img {
 			float: left;
 		}
-		div {
+		// div {
+		// 	float: left;
+		// 	width: 70%;
+		// 	max-height: 400px;
+		// 	margin-left: 1em;
+		// 	display: block;
+		// 	h1 {
+		// 		background: #EBB33A;
+		// 		margin: 0;
+		// 		padding: 0.2em;
+		// 		color: white;
+		// 		border-radius: 0.2em;
+		// 	}
+		// 	p {
+		// 		font-size: 1.2em;
+		// 		text-align: left;
+		// 		padding:0;
+		// 	}
+		// }
+	}
+}
+
+.geoff-js {
+	div div {
+		&:first-child {
+			width: 75%;
+		}
+		.geoff-info-js {
 			float: left;
-			width: 70%;
+			width: 60%;
+			max-height: 400px;
+			margin-left: 1em;
+			display: block;
+			h1 {
+				background: #EBB33A;
+				margin: 0;
+				padding: 0.2em;
+				color: white;
+				border-radius: 0.2em;
+			}
+			p {
+				font-size: 1.2em;
+				text-align: left;
+				padding:0;
+			}
+		}
+	}
+}
+
+.carter-js {
+	div div {
+		&:nth-child(2) {
+			width: 75%;
+		}
+		.carter-info-js {
+			float: left;
+			width: 60%;
+			max-height: 400px;
+			margin-left: 1em;
+			display: block;
+			h1 {
+				background: #EBB33A;
+				margin: 0;
+				padding: 0.2em;
+				color: white;
+				border-radius: 0.2em;
+			}
+			p {
+				font-size: 1.2em;
+				text-align: left;
+				padding:0;
+			}
+		}
+	}
+}
+
+.jasper-js {
+	div div {
+		&:nth-child(3) {
+			width: 75%;
+		}
+		.jasper-info-js {
+			float: left;
+			width: 60%;
+			max-height: 400px;
+			margin-left: 1em;
+			display: block;
+			h1 {
+				background: #EBB33A;
+				margin: 0;
+				padding: 0.2em;
+				color: white;
+				border-radius: 0.2em;
+			}
+			p {
+				font-size: 1.2em;
+				text-align: left;
+				padding:0;
+			}
+		}
+	}
+}
+
+.nik-js {
+	div div {
+		&:last-child {
+			width: 75%;
+		}
+		.nik-info-js {
+			float: left;
+			width: 60%;
 			max-height: 400px;
 			margin-left: 1em;
 			display: block;
