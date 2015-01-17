@@ -46,6 +46,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	width: 95%;
 	height: 32em;
 	background: $bg-div-color;
+	overflow: hidden;
 
 	p {
 		margin: 0;
@@ -60,12 +61,179 @@ $paragraph-font: 'Quicksand', sans-serif;
 		float: left;
 
 		div {
+			transition: 1s;
 			width: 25%;
 			text-align: center;
 		}
 		img {
 			max-height: 400px;
 			padding-left: 2%;
+		}
+	}
+}
+
+.geoff-info-js, .carter-info-js, .jasper-info-js, .nik-info-js {
+	display:none;
+	transition: 1s;
+}
+
+.members-bios-container-js {
+	div div{
+		width: 8%;
+		img {
+			float: left;
+		}
+	}
+}
+
+.geoff-js {
+	div div {
+		&:first-child {
+			width: 75%;
+		}
+		.geoff-info-js {
+			float: left;
+			width: 60%;
+			max-height: 400px;
+			margin-left: 1em;
+			display: block;
+			div {
+				width: 100%;
+				font-size: 2em;
+				background: #EBB33A;
+				font-family: $paragraph-font;
+				color: white;
+				border-radius: 0.2em;
+				padding: 0.2em;
+
+				a {
+					float: right;
+					margin-top: -1.2em;
+					background: #EBB33A;
+					text-decoration: none;
+					font-family: $paragraph-font;
+					color: white;
+				}
+			}
+			p {
+				font-size: 1.2em;
+				text-align: left;
+				padding:0;
+			}
+		}
+	}
+}
+
+.carter-js {
+	div div {
+		&:nth-child(2) {
+			width: 75%;
+		}
+		.carter-info-js {
+			float: left;
+			width: 60%;
+			max-height: 400px;
+			margin-left: 1em;
+			display: block;
+			div {
+				width: 100%;
+				font-size: 2em;
+				background: #EBB33A;
+				font-family: $paragraph-font;
+				color: white;
+				border-radius: 0.2em;
+				padding: 0.2em;
+
+				a {
+					float: right;
+					margin-top: -1.2em;
+					background: #EBB33A;
+					text-decoration: none;
+					font-family: $paragraph-font;
+					color: white;
+				}
+			}
+			p {
+				font-size: 1.2em;
+				text-align: left;
+				padding:0;
+			}
+		}
+	}
+}
+
+.jasper-js {
+	div div {
+		&:nth-child(3) {
+			width: 75%;
+		}
+		.jasper-info-js {
+			float: left;
+			width: 60%;
+			max-height: 400px;
+			margin-left: 1em;
+			display: block;
+			div {
+				width: 100%;
+				font-size: 2em;
+				background: #EBB33A;
+				font-family: $paragraph-font;
+				color: white;
+				border-radius: 0.2em;
+				padding: 0.2em;
+
+				a {
+					float: right;
+					margin-top: -1.2em;
+					background: #EBB33A;
+					text-decoration: none;
+					font-family: $paragraph-font;
+					color: white;
+				}
+			}
+			p {
+				font-size: 1.2em;
+				text-align: left;
+				padding:0;
+			}
+		}
+	}
+}
+
+.nik-js {
+	div div {
+		&:last-child {
+			width: 75%;
+		}
+		.nik-info-js {
+			float: left;
+			width: 60%;
+			max-height: 400px;
+			margin-left: 1em;
+			display: block;
+			div {
+				width: 100%;
+				font-size: 2em;
+				background: #EBB33A;
+				font-family: $paragraph-font;
+				color: white;
+				border-radius: 0.2em;
+				padding: 0.2em;
+
+				a {
+					float: right;
+					margin-top: -1.2em;
+					background: #EBB33A;
+					text-decoration: none;
+					font-family: $paragraph-font;
+					color: white;
+				}
+			}
+			p {
+				font-size: 1.2em;
+				text-align: left;
+				padding:0;
+			}
 		}
 	}
 }
