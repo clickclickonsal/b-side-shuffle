@@ -46,4 +46,9 @@ $(document).ready(function() {
   	}
 
   });
+  $(".members-bios-container div div div a").on("click", function(event){
+    event.preventDefault();
+    console.log($(this))
+      $(".members-bios-container").removeClass("members-bios-container-js geoff-js carter-js jasper-js nik-js");
+  });
 });
