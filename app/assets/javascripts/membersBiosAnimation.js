@@ -14,6 +14,8 @@ $(document).ready(function() {
   			$(".members-bios-container").removeClass("geoff-js");
 	  	}
 	  	else{
+        $(".members-bios-container").addClass("members-bios-container-js");
+        $(".members-bios-container").removeClass("carter-js jasper-js nik-js");
 	  		$(".members-bios-container").addClass("geoff-js");
 	  	}
   	}
@@ -23,6 +25,8 @@ $(document).ready(function() {
   			$(".members-bios-container").removeClass("carter-js");
 	  	}
 	  	else{
+        $(".members-bios-container").addClass("members-bios-container-js");
+        $(".members-bios-container").removeClass("geoff-js jasper-js nik-js");
 	  		$(".members-bios-container").addClass("carter-js");
 	  	}
   	}
@@ -32,6 +36,8 @@ $(document).ready(function() {
   			$(".members-bios-container").removeClass("jasper-js");
 	  	}
 	  	else{
+        $(".members-bios-container").addClass("members-bios-container-js");
+        $(".members-bios-container").removeClass("geoff-js carter-js nik-js");
 	  		$(".members-bios-container").addClass("jasper-js");
 	  	}
   	}
@@ -41,6 +47,8 @@ $(document).ready(function() {
   			$(".members-bios-container").removeClass("nik-js");
 	  	}
 	  	else{
+        $(".members-bios-container").addClass("members-bios-container-js");
+        $(".members-bios-container").removeClass("geoff-js carter-js jasper-js");
 	  		$(".members-bios-container").addClass("nik-js");
 	  	}
   	}
