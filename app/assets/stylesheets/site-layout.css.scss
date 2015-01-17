@@ -19,17 +19,17 @@
 }
 
 #news, #bios {
-  background: url(news_red.png) no-repeat;
+  background: url(image-path('news_red.png')) no-repeat;
 	background-size: cover;
 }
 
 #media, #contact-us {
-  background: url(media_yellow.png) no-repeat;
+  background: url(image-path('media_yellow.png')) no-repeat;
 	background-size: cover;
 }
 
 #photos {
-  background: url(photos_green.png) no-repeat;
+  background: url(image-path('photos_green.png')) no-repeat;
 	background-size: cover;
 	height: 60em;
 }

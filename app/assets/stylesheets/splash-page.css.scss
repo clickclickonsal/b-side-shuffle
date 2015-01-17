@@ -4,7 +4,7 @@
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 #splash-page {
-	background: url(wood_background_splash.png) no-repeat;
+	background: url(image-path('wood_background_splash.png')) no-repeat;
 	background-position: center center;
   background-attachment: fixed;
   background-size: cover;
