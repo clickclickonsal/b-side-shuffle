@@ -4,6 +4,7 @@ gem "autoprefixer-rails"
 gem "font-awesome-rails"
 gem "devise"
 gem "gon"
+gem 'unicorn'
 gem "httparty"
 gem 'figaro'
 gem 'nokogiri'
