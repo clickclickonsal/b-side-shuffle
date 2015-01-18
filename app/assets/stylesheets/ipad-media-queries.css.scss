@@ -1,0 +1,274 @@
+@media (max-width: 700px) {
+	// #splash-page {
+	// 	display: none;
+	// }
+	#news {
+		height: 72em;
+	}
+
+	#bios {
+		height: 52.8em;
+	}
+
+	#contact-us {
+		height: 45em;
+	}
+
+	#up-button {
+		width: 3em;
+		height: 3em;
+	}
+	#header {
+		// display: block;
+ 		height: 3em;
+ 		ul > li > a {
+ 			font-size: 0.75em;
+ 		}
+	}
+
+	.record-player-small > div {
+    height: 12em;
+    width: 12em;
+    margin-top: -5.55em;
+
+    & > div {
+      margin-top: -0.9em;
+      margin-left: -3.95em;
+
+      img {
+        width: 1.2em;
+      }
+    }
+    & > #title {
+      font-size: 1.2em;
+      margin-top: 4.2em;
+      margin-left: 0.2em;
+    }
+	}
+
+	#play-button, #pause-button {
+		width: 1.8em;
+	}
+
+	.nav-links {
+		width: 8%;	
+		margin-top: 0.5em;
+	}
+
+	.social-icons {
+		width: 1.8em;
+  	height: 1.5em;
+  	font-size: 0.85em;
+  	padding: 0.1em 0.15em 0.2em 0.15em;
+  	margin: 0.3em;
+	}
+
+	#youtube {
+ 	  margin-right: 0.5em;
+	}
+
+	.first-section {
+			& > .signup-section {
+			width: 100%;
+			position: absolute;
+
+			& > .sign-up-div {
+				height: 5em;
+				width: 95%;
+
+				h3, h2, h1 {
+					clear: both;
+					float: left;
+					width: 45%;
+					font-size: 0.95em;
+					text-align: left;
+					margin-left: 1em;
+				}
+			}
+
+			.sign-up-form {
+				width: 55%;
+				float: right;
+				margin-top: -3.5em;
+
+				#email-field {
+					height: 2em;
+					width: 70%;
+					float: left;
+				}
+				& > input[type=submit] {
+					height: 2.5em;
+					width: 25%;
+					font-size: 0.8em;
+
+				}
+			}
+		}
+		& > div:first-child {
+			margin-top: 7.5em;
+			width: 100%;
+
+			& > .video > p {
+				font-size: 1.5em;
+				padding-bottom: 0.8em;
+			}
+		}
+	}
+
+	.second-part-section > .col {
+		width: 100%;
+		margin-top: 1.8em;
+	} 
+
+	.twitter-feed {
+		display: none;
+	}
+
+	.second-section {
+		& > div:first-child {
+			width: 100%;
+
+			& > #m-video-section {
+				margin-left: 1.2em;
+				margin-top: 2em;
+			}
+		}
+		& > div:last-child {
+			width: 108%;
+
+			& > #blog-container {
+				margin-top: 1em;
+				margin-left: 0.6em;
+				height: 28em;
+
+				& > .blog-posts {
+					& > div {
+
+						& > img {
+							float: left;
+						}
+						#second-tumblr-image {
+							display: block;
+							clear: both;
+							float: left;
+						}
+					}
+					& > div:last-child {
+							margin-top: 3em;
+					}
+				}
+			}
+		}
+	}
+
+	.third-section > .col > .photos-container{
+		margin-left: 1.1em;
+	}
+
+	#m-music-section {
+		display: none;
+	}
+
+	.fourth-section {
+		& > .about-the-band-container {
+			margin-left: 1.1em;
+			height: 18em;
+
+			& > div > p {
+				font-size: 0.75em;
+			}
+		}
+	}
+
+	.fourth-section-second-part {
+		& > .members-bios-container {
+			margin-left: 1.2em;
+			height: 27em;
+			& > p {
+				font-size: 1.5em;
+			}
+			& > div > div {
+				& > div {
+					width: 45%;
+					& > div {
+						font-size: 1.2em;
+					}
+					& > p {
+						font-size: 0.75em;
+					}
+				}
+				& > .member-photos > img{
+					max-height: 300px;
+				}
+			}
+		}
+	}
+
+	.last-section {
+		& > div:first-child {
+			& > .contact-us-container {
+				margin-left: 1.2em;
+				width: 110%;
+				height: 32em;
+				& > h1 {
+					font-size: 1.5em;
+				}
+				& > p {
+					font-size: 0.75em;
+				}
+				& > div {
+					width: 90%;
+					label {
+						font-size: 0.85em;
+					}
+					.first-4-inputs {
+						font-size: 0.5em;
+						border-radius: 0.8em;
+						margin-top: 0.1em;
+						height: 2.5em;
+					}
+					#message-field {
+						height: 9em;
+						font-size: 0.8em;
+					}
+					#send-contact {
+						font-size: 1.2em;
+						padding: 0.25em;
+						width: 5em;
+						border-radius: 0.4em;
+					}
+				}
+			}
+		}
+		& > div:last-child {
+			& > .for-promoters-container {
+				height: 32em;
+				& > h1 {
+					font-size: 1.5em;
+				}
+				& > p {
+					font-size: 0.8em;
+				}
+				& > .logos {
+					img {
+						width: 25%;	
+					}
+					button {
+						font-size: 1em;
+						border-radius: 0.4em;
+					}
+				}
+				& > .fonts {
+					padding-top: 4em;
+					img {
+						width: 40%;
+					}
+					button {
+						font-size: 1em;
+						border-radius: 0.4em;
+					}
+				}
+			}
+		}
+	}
+}
