@@ -1,13 +1,13 @@
 @media (max-width: 700px) {
-	#splash-page {
-		display: none;
-	}
+	// #splash-page {
+	// 	display: none;
+	// }
 
 	#header {
-		display: block;
+		// display: block;
  		height: 3em;
  		ul > li > a {
- 			font-size: 1em;
+ 			font-size: 0.75em;
  		}
 	}
 
@@ -36,11 +36,20 @@
 	}
 
 	.nav-links {
-		width: 10%;
+		width: 8%;	
+		margin-top: 0.5em;
 	}
+
 	.social-icons {
-		width: 2em;
+		width: 1.8em;
   	height: 1.5em;
+  	font-size: 0.85em;
+  	padding: 0.1em 0.15em 0.2em 0.15em;
+  	margin: 0.3em;
+	}
+
+	#youtube {
+ 	  margin-right: 0.5em;
 	}
 
 	.first-section > .signup-section {
