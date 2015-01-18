@@ -6,7 +6,6 @@ gem "devise"
 gem "gon"
 gem "httparty"
 gem 'figaro'
-gem 'nokogiri'
 gem 'rails_12factor'
 gem 'foundation-rails'
 gem 'activeadmin', github: 'activeadmin'
