@@ -2,7 +2,13 @@
 	// #splash-page {
 	// 	display: none;
 	// }
-
+	#news {
+		height: 72em;
+	}
+	#up-button {
+		width: 3em;
+		height: 3em;
+	}
 	#header {
 		// display: block;
  		height: 3em;
@@ -52,40 +58,60 @@
  	  margin-right: 0.5em;
 	}
 
-	.first-section > .signup-section {
+	.first-section {
+			& > .signup-section {
+			width: 100%;
+			position: absolute;
+
+			& > .sign-up-div {
+				height: 5em;
+				width: 95%;
+
+				h3, h2, h1 {
+					clear: both;
+					float: left;
+					width: 45%;
+					font-size: 0.95em;
+					text-align: left;
+					margin-left: 1em;
+				}
+			}
+
+			.sign-up-form {
+				width: 55%;
+				float: right;
+				margin-top: -3.5em;
+
+				#email-field {
+					height: 2em;
+					width: 70%;
+					float: left;
+				}
+				& > input[type=submit] {
+					height: 2.5em;
+					width: 25%;
+					font-size: 0.8em;
+
+				}
+			}
+		}
+		& > div:first-child {
+			margin-top: 7.5em;
+			width: 100%;
+
+			& > .video > p {
+				font-size: 1.5em;
+				padding-bottom: 0.8em;
+			}
+		}
+	}
+
+	.second-part-section > .col {
 		width: 100%;
-		position: absolute;
+		margin-top: 1.8em;
+	}
 
-		& > .sign-up-div {
-			height: 5em;
-			width: 95%;
-
-			h3, h2, h1 {
-				clear: both;
-				float: left;
-				width: 45%;
-				font-size: 0.95em;
-				text-align: left;
-				margin-left: 1em;
-			}
-		}
-
-		.sign-up-form {
-			width: 55%;
-			float: right;
-			margin-top: -3.5em;
-
-			#email-field {
-				height: 2em;
-				width: 70%;
-				float: left;
-			}
-			& > input[type=submit] {
-				height: 2.5em;
-				width: 25%;
-				font-size: 0.8em;
-
-			}
-		}
+	.twitter-feed {
+		display: none;
 	}
 }
