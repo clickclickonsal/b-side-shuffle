@@ -115,12 +115,9 @@ GEM
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
     mime-types (2.4.3)
-    mini_portile (0.6.1)
     minitest (5.5.0)
     multi_json (1.10.1)
     multi_xml (0.5.5)
-    nokogiri (1.6.5)
-      mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
     pg (0.18.1)
     polyamorous (1.1.0)
@@ -212,7 +209,6 @@ DEPENDENCIES
   httparty
   jbuilder (~> 2.0)
   jquery-rails
-  nokogiri
   pg
   pry-rails
   rails (= 4.1.6)
