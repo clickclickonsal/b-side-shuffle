@@ -10,6 +10,10 @@
 		height: 52.8em;
 	}
 
+	#contact-us {
+		height: 45em;
+	}
+
 	#up-button {
 		width: 3em;
 		height: 3em;
@@ -195,6 +199,74 @@
 				}
 				& > .member-photos > img{
 					max-height: 300px;
+				}
+			}
+		}
+	}
+
+	.last-section {
+		& > div:first-child {
+			& > .contact-us-container {
+				margin-left: 1.2em;
+				width: 110%;
+				height: 32em;
+				& > h1 {
+					font-size: 1.5em;
+				}
+				& > p {
+					font-size: 0.75em;
+				}
+				& > div {
+					width: 90%;
+					label {
+						font-size: 0.85em;
+					}
+					.first-4-inputs {
+						font-size: 0.5em;
+						border-radius: 0.8em;
+						margin-top: 0.1em;
+						height: 2.5em;
+					}
+					#message-field {
+						height: 9em;
+						font-size: 0.8em;
+					}
+					#send-contact {
+						font-size: 1.2em;
+						padding: 0.25em;
+						width: 5em;
+						border-radius: 0.4em;
+					}
+				}
+			}
+		}
+		& > div:last-child {
+			& > .for-promoters-container {
+				height: 32em;
+				& > h1 {
+					font-size: 1.5em;
+				}
+				& > p {
+					font-size: 0.8em;
+				}
+				& > .logos {
+					img {
+						width: 25%;	
+					}
+					button {
+						font-size: 1em;
+						border-radius: 0.4em;
+					}
+				}
+				& > .fonts {
+					padding-top: 4em;
+					img {
+						width: 40%;
+					}
+					button {
+						font-size: 1em;
+						border-radius: 0.4em;
+					}
 				}
 			}
 		}
