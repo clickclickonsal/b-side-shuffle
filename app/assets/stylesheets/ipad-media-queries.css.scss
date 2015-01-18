@@ -6,6 +6,10 @@
 		height: 72em;
 	}
 
+	#bios {
+		height: 52.8em;
+	}
+
 	#up-button {
 		width: 3em;
 		height: 3em;
@@ -159,5 +163,40 @@
 
 	#m-music-section {
 		display: none;
+	}
+
+	.fourth-section {
+		& > .about-the-band-container {
+			margin-left: 1.1em;
+			height: 18em;
+
+			& > div > p {
+				font-size: 0.75em;
+			}
+		}
+	}
+
+	.fourth-section-second-part {
+		& > .members-bios-container {
+			margin-left: 1.2em;
+			height: 27em;
+			& > p {
+				font-size: 1.5em;
+			}
+			& > div > div {
+				& > div {
+					width: 45%;
+					& > div {
+						font-size: 1.2em;
+					}
+					& > p {
+						font-size: 0.75em;
+					}
+				}
+				& > .member-photos > img{
+					max-height: 300px;
+				}
+			}
+		}
 	}
 }
