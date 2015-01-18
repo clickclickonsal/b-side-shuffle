@@ -5,6 +5,7 @@
 	#news {
 		height: 72em;
 	}
+
 	#up-button {
 		width: 3em;
 		height: 3em;
@@ -109,9 +110,54 @@
 	.second-part-section > .col {
 		width: 100%;
 		margin-top: 1.8em;
-	}
+	} 
 
 	.twitter-feed {
+		display: none;
+	}
+
+	.second-section {
+		& > div:first-child {
+			width: 100%;
+
+			& > #m-video-section {
+				margin-left: 1.2em;
+				margin-top: 2em;
+			}
+		}
+		& > div:last-child {
+			width: 108%;
+
+			& > #blog-container {
+				margin-top: 1em;
+				margin-left: 0.6em;
+				height: 28em;
+
+				& > .blog-posts {
+					& > div {
+
+						& > img {
+							float: left;
+						}
+						#second-tumblr-image {
+							display: block;
+							clear: both;
+							float: left;
+						}
+					}
+					& > div:last-child {
+							margin-top: 3em;
+					}
+				}
+			}
+		}
+	}
+
+	.third-section > .col > .photos-container{
+		margin-left: 1.1em;
+	}
+
+	#m-music-section {
 		display: none;
 	}
 }
