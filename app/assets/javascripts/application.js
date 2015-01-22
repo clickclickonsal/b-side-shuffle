@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jQuerySlimScroll
+//= require snapScroll
 //= require fullPageMin
 //= require snapPage
 //= require menuPlayerSoundCloud
