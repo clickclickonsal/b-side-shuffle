@@ -114,11 +114,6 @@ header {
   -o-animation:spin 4s linear infinite;
   animation:spin 4s linear infinite;
 }
-    
-#pause-button {
-  width: 1.5em;
-  display: none;
-}
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
