@@ -17,10 +17,10 @@
     <ul class="menu">
 
       <li class="nav-links"><a href="/news" data-panel="news">News</a></li>
-      <li class="nav-links"><a href="#media">Media</a></li>
-      <li class="nav-links"><a href="#photos">Photos</a></li>
+      <li class="nav-links"><a href="/media" data-panel="media">Media</a></li>
+      <li class="nav-links"><a href="/photos" data-panel="photos">Photos</a></li>
 
-     <!-- <li class="record-player-small">
+    <!--  <li class="record-player-small">
         <div>
           <%#= image_tag("small_record_menu_bar.png", :id => "small-record-disc", alt: "Spinning Record Disc in Nav Bar") %>
           <p id="title">B Side Shuffle
@@ -40,12 +40,12 @@
             </a>
           </div>
         </div>
-      </li>
+      </li> -->
 
-      <li class="nav-links"><a href="#bios">Bios</a></li>
-      <li class="nav-links"><a href="#contact-us">Contact Us</a></li>
+      <li class="nav-links"><a href="/bios" data-panel="bios">Bios</a></li>
+      <li class="nav-links"><a href="/contact-us" data-panel="contact-u">Contact Us</a></li>
 
-      <li class="social-icons" id="youtube">
+      <!-- <li class="social-icons" id="youtube">
         <a href="https://www.youtube.com/watch?v=vbXtjqzWq6M" target="_blank">
           <%#= fa_icon "youtube-play" %>
         </a>
@@ -73,6 +73,9 @@
       
     </ul>
   </header>
+  <a href="#splash-page" id="up-button">
+    <%= image_tag("scroll_up.png", :id => "up-button-img", height: '60', width: '60', alt:'Scroll Up Arrow Button') %>
+  </a>
 
 <%= yield %>
 
