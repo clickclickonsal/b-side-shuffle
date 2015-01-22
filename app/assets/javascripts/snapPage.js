@@ -44,20 +44,16 @@ $(document).ready(function(){
         $("header").slideDown();
         $("#wrapper").panelSnap('disable');
         $("#up-button").slideDown();
+
+        if( $(".active").hasClass("news") ){
+          $('#wrapper').panelSnap('enable')
+        }
       }
       else{
         $("header").slideUp();
         $("#up-button").slideUp();
       }
     },
-    // onSnapStart: function(){
-    //   if( $(".active").hasClass("news") ){
-    //     $('#wrapper').panelSnap('enable')
-    //   }
-    // },
-    // onSnapStart: function(){
-    //   $("header").slideUp();
-    // },
     keyboardNavigation: {
       enabled: true,
       wrapAround: false,
