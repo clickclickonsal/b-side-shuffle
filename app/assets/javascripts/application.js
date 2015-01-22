@@ -20,3 +20,4 @@
 //= require soundCloudWidget
 //= require contactUsForm
 //= require membersBiosAnimation
+//= require hamburgerJs
