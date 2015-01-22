@@ -2,5 +2,61 @@
 	.hamburger-icon {
 		display: inline;
 		float: left;
+		background: rgba(202, 177, 129,0.8);
+		font-size: 2.5em;
+		margin-top: -0.4em;
+		border: none;
+		text-decoration: none;
+		color: black;
+	}
+	.menu {
+		background: none;
+		margin-left:-15em;
+		transition: 1s;
+		.nav-links {
+			display: none;
+		}
+		.record-player-small {
+			display: none;
+		}
+	}
+
+	.menu-js {
+		float: left;
+		margin-top: 3em;
+		margin-left: -3em;
+		background: rgba(202, 177, 129, 0.9);
+		height: 20em;
+		width: 10em;
+		display: block;
+		.nav-links {
+			display: inline;
+			width: 100%;
+			float: left;
+			clear: both;
+			font-size: 1.8em;
+		}
+	}
+	.social-icons {
+		position: absolute;
+		padding: 0.3em;
+		font-size: 1.2em;
+		right: 4em;
+		top: 0.4em;
+	}
+	#youtube {
+		right: 0;
+	}
+	#twitter {
+		right: 3em;
+	}
+	#tumblr {
+		right: 5.7em;
+	}
+	#instagram {
+		right: 8.4em;
+	}
+	#facebook {
+		right: 11.1em;
 	}
 }
