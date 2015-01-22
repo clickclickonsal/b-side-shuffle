@@ -1,42 +1,41 @@
-<div id="fullpage">
+<div id="wrapper">
 
-  <div class="section" id="splash-page" data-anchor="home-page">
-    	<div class="splash-container"> 
-    		<%= image_tag("turntable_full.png", :id => "record-box") %>
-    		<%= image_tag("turntable_record.png", :id => "record-image") %>
+  <section id="splash-page">
+    	<!-- <div class="splash-container"> 
+    		<%#= image_tag("turntable_full.png", :id => "record-box") %>
+    		<%#= image_tag("turntable_record.png", :id => "record-image") %>
     		<%#= image_tag("turntable_arm.png", :id => "arm-image") %>
-    	</div>
+    	</div> -->
 
-    	<a href="#news-section">
+    	<a href="#news">
     		<%= image_tag("scroll-down.png", :id => "down-button", height: '60', width: '60', alt:'Scroll Down Arrow Button') %>
     	</a>
-  </div>
+  </section>
 
-  <div class="section">
 
-    <a href="#home-page">
-    	<%= image_tag("scroll_up.png", :id => "up-button", height: '60', width: '60', alt:'Scroll Up Arrow Button') %>
-    </a>
+    <!-- <a href="#home-page">
+    	<%#= image_tag("scroll_up.png", :id => "up-button", height: '60', width: '60', alt:'Scroll Up Arrow Button') %>
+    </a> -->
 
-    <div class="last-page" id="news" data-anchor="news-section">
-      <%= render "news" %>
-    </div>
+    <section data-panel="news" class="last-page" id="news">
+      <%#= render "news" %>
+    </section>
 
     <div class="last-page" id="media">
-      <%= render "media" %>
+      <%#= render "media" %>
     </div>
 
     <div class="last-page" id="photos">
-      <%= render "photos" %>
+      <%#= render "photos" %>
     </div> 
 
     <div class="last-page" id="bios">
-      <%= render "bios" %>
+      <%#= render "bios" %>
     </div>
 
     <div class="last-page" id="contact-us">
-    <%= render "contact_us" %>
+    <%#= render "contact_us" %>
     </div>
-  </div>
+
 
 </div>

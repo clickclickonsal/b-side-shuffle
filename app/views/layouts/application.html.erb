@@ -13,30 +13,30 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div id="header">
-    <ul id="my-menu">
+  <header>
+    <ul class="menu">
 
-      <li class="nav-links"><a href="#news">News</a></li>
+      <li class="nav-links"><a href="/news" data-panel="news">News</a></li>
       <li class="nav-links"><a href="#media">Media</a></li>
       <li class="nav-links"><a href="#photos">Photos</a></li>
 
-      <li class="record-player-small">
+     <!-- <li class="record-player-small">
         <div>
-          <%= image_tag("small_record_menu_bar.png", :id => "small-record-disc", alt: "Spinning Record Disc in Nav Bar") %>
+          <%#= image_tag("small_record_menu_bar.png", :id => "small-record-disc", alt: "Spinning Record Disc in Nav Bar") %>
           <p id="title">B Side Shuffle
             <br />
             <span class="song-title">"Omajimawoma"</span>
           </p>
           <div>
             <a href="#">
-              <%= image_tag("rewind_button.png", :id => "rewind-button", alt: "Rewind Button") %>
+              <%#= image_tag("rewind_button.png", :id => "rewind-button", alt: "Rewind Button") %>
             </a>
             <a href="#">
-              <%= image_tag("play_button.png", :id => "play-button", alt: "Play Button") %>
-              <%= image_tag("pause_button.png", :id => "pause-button", alt: "Pause Button") %>
+              <%#= image_tag("play_button.png", :id => "play-button", alt: "Play Button") %>
+              <%#= image_tag("pause_button.png", :id => "pause-button", alt: "Pause Button") %>
             </a>
             <a href="#">
-              <%= image_tag("forward_button.png", :id => "forward-button", alt: "Foward Button") %>
+              <%#= image_tag("forward_button.png", :id => "forward-button", alt: "Foward Button") %>
             </a>
           </div>
         </div>
@@ -47,32 +47,32 @@
 
       <li class="social-icons" id="youtube">
         <a href="https://www.youtube.com/watch?v=vbXtjqzWq6M" target="_blank">
-          <%= fa_icon "youtube-play" %>
+          <%#= fa_icon "youtube-play" %>
         </a>
       </li>
       <li class="social-icons">
         <a href="https://www.twitter.com/bsideshuffle" target="_blank">
-          <%= fa_icon "twitter" %>
+          <%#= fa_icon "twitter" %>
         </a>
       </li>
       <li class="social-icons">
         <a href="https://www.bsideshuffle.tumblr.com" target="_blank">
-          <%= fa_icon "tumblr" %>
+          <%#= fa_icon "tumblr" %>
         </a>
       </li>
       <li class="social-icons">
         <a href="https://www.instagram.com/bsideshuffle" target="_blank">
-          <%= fa_icon "instagram" %>
+          <%#= fa_icon "instagram" %>
         </a>
       </li>
       <li class="social-icons" id="facebook">
         <a href="https://www.facebook.com/bsideshuffle" target="_blank">
-          <%= fa_icon "facebook" %>
+          <%#= fa_icon "facebook" %>
         </a>
-      </li>
+      </li> -->
       
     </ul>
-  </div>
+  </header>
 
 <%= yield %>
 
