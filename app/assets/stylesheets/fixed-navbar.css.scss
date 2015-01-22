@@ -1,6 +1,6 @@
 $header-font: 'Viga', sans-serif;
 
-#header {
+header {
   position:fixed;
   height: 4.5em;
   display:block;
@@ -108,16 +108,15 @@ $header-font: 'Viga', sans-serif;
   }
 }
 
+#pause-button {
+  display: none;
+}
+
 .spin-record-js {
   -webkit-animation:spin 4s linear infinite;
   -moz-animation:spin 4s linear infinite;
   -o-animation:spin 4s linear infinite;
   animation:spin 4s linear infinite;
-}
-    
-#pause-button {
-  width: 1.5em;
-  display: none;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }

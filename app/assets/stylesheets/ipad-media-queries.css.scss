@@ -2,7 +2,7 @@
 	// #splash-page {
 	// 	display: none;
 	// }
-	#news {
+	#news-section {
 		height: 86em;
 	}
 
@@ -18,8 +18,7 @@
 		width: 3em;
 		height: 3em;
 	}
-	#header {
-		// display: block;
+	header {
  		height: 3em;
  		ul > li > a {
  			font-size: 0.75em;
@@ -54,12 +53,12 @@
 		width: 8%;	
 		margin-top: 0.5em;
 	}
-
+	
 	.social-icons {
 		width: 1.8em;
   	height: 1.5em;
-  	font-size: 0.85em;
-  	padding: 0.1em 0.15em 0.2em 0.15em;
+  	font-size: 1em;
+  	padding: 0.05em 0.15em 0.15em 0.05em;
   	margin: 0.3em;
 	}
 

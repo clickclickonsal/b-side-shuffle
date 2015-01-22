@@ -12,10 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jQuerySlimScroll
-//= require fullPageMin
+//= require snapScroll
 //= require snapPage
 //= require menuPlayerSoundCloud
+//= require twitterFeed
 //= require signUpForm
 //= require soundCloudWidget
 //= require contactUsForm

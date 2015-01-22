@@ -12,9 +12,11 @@
 
 @media (max-width: 1250px) {
   .nav-links {
-    width: 7%;
+    width: 8%;
   }
-
+  .contact-link {
+    font-size: 0.9em;
+  }
   .record-player-small > div {
     height: 16em;
     width: 16em;
@@ -77,6 +79,15 @@
     p {
       font-size: 1em;
     }
+  }
+}
+
+@media (max-width: 1050px) {
+  .nav-links {
+    width: 7%;
+  }
+  .contact-link {
+    font-size: 0.8em;
   }
 }
 

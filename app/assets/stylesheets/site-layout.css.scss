@@ -1,9 +1,16 @@
+#wrapper {
+  height:100%;
+  width: 100%;
+  position: absolute;
+  overflow: scroll;
+}
+
 .last-page {
-	position: relative;
 	width: 100%;
 }
-#news {
+.news {
 	height: 60em;
+	position: relative;
 }
 
 #bios {
@@ -18,7 +25,7 @@
 	height: 60em;
 }
 
-#news, #bios {
+.news, #bios {
   background: url(image-path('news_red.png')) no-repeat;
 	background-size: cover;
 }
@@ -35,14 +42,18 @@
 }
 
 #up-button {
-	position: absolute;
-	opacity: 0.70;
+	position:fixed;
+  z-index:8;
 	bottom: 1em;
 	right: 1em;
-	z-index: 1;
+	display: none;
+}
+
+#up-button-img {
+	opacity: 0.70;
 	transition: 1s;
 }
 
-#up-button:hover {
+#up-button-img:hover {
 	opacity: 1;
 }

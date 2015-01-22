@@ -8,12 +8,12 @@
 	background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
 }
 
 .splash-container {
   width: 100%;
   z-index: 1;
-  overflow: hidden;
 
   #record-box {
     max-width: 100%;
@@ -22,8 +22,6 @@
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    overflow: hidden;
-
   }
 
   #record-image {
@@ -45,6 +43,7 @@
 	position: absolute;
 	bottom: 1em;
 	right: 1em;
+  z-index: 10;
   transition: 1s;
   opacity: 0.7;
 }

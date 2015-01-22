@@ -1,6 +1,6 @@
-<div id="fullpage">
+<div id="wrapper">
 
-  <div class="section" id="splash-page" data-anchor="home-page">
+  <section id="splash-page">
     	<div class="splash-container"> 
     		<%= image_tag("turntable_full.png", :id => "record-box") %>
     		<%= image_tag("turntable_record.png", :id => "record-image") %>
@@ -10,33 +10,27 @@
     	<a href="#news-section">
     		<%= image_tag("scroll-down.png", :id => "down-button", height: '60', width: '60', alt:'Scroll Down Arrow Button') %>
     	</a>
-  </div>
+  </section>
 
-  <div class="section">
-
-    <a href="#home-page">
-    	<%= image_tag("scroll_up.png", :id => "up-button", height: '60', width: '60', alt:'Scroll Up Arrow Button') %>
-    </a>
-
-    <div class="last-page" id="news" data-anchor="news-section">
+    <section data-panel="news" class="last-page news" id="news-section">
       <%= render "news" %>
-    </div>
+    </section>
 
-    <div class="last-page" id="media">
+    <section data-panel="media" class="last-page" id="media">
       <%= render "media" %>
-    </div>
+    </section>
 
-    <div class="last-page" id="photos">
+    <section data-panel="photos" class="last-page" id="photos">
       <%= render "photos" %>
-    </div> 
+    </section> 
 
-    <div class="last-page" id="bios">
+    <section data-panel="bios" class="last-page" id="bios">
       <%= render "bios" %>
-    </div>
+    </section>
 
-    <div class="last-page" id="contact-us">
+    <section data-panel="contact-us" class="last-page" id="contact-us">
     <%= render "contact_us" %>
-    </div>
-  </div>
+    </section>
+
 
 </div>

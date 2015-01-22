@@ -7,7 +7,6 @@ gem "gon"
 gem "httparty"
 gem 'figaro'
 gem 'rails_12factor'
-gem 'foundation-rails'
 gem 'activeadmin', github: 'activeadmin'
 gem 'rails', '4.1.6' # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'pg' # Use postgresql as the database for Active Record
