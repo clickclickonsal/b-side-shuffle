@@ -108,6 +108,10 @@ header {
   }
 }
 
+#pause-button {
+  display: none;
+}
+
 .spin-record-js {
   -webkit-animation:spin 4s linear infinite;
   -moz-animation:spin 4s linear infinite;
