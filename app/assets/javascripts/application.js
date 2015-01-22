@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require snapScroll
-//= require fullPageMin
 //= require snapPage
 //= require menuPlayerSoundCloud
 //= require signUpForm
