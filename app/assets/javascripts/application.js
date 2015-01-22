@@ -15,6 +15,7 @@
 //= require snapScroll
 //= require snapPage
 //= require menuPlayerSoundCloud
+//= require twitterFeed
 //= require signUpForm
 //= require soundCloudWidget
 //= require contactUsForm
