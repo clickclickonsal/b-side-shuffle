@@ -3,5 +3,8 @@ $(document).ready(function() {
   	event.preventDefault();
   	console.log("hi");
   	$(".menu").toggleClass("menu-js");
+  });
+  $(".nav-links").on("click", function(){
+  	$(".menu").toggleClass("menu-js");
   })
 });
