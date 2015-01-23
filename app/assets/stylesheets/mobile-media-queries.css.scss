@@ -484,6 +484,9 @@
 	#photos {
 		height: 30.5em;
 	}
+	.social-icons {
+		font-size: 1.05em;
+	}
 	.first-section {
 		.signup-section > .sign-up-div {
 			h3 {
@@ -505,6 +508,9 @@
 				margin-top: 1.6em;
 				font-size: 0.6em;
 			}
+		}
+		& > div:first-child > .video > p{
+			font-size: 1em;
 		}
 	}
 	.third-section > .col {
