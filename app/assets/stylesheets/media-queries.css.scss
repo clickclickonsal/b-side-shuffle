@@ -12,7 +12,7 @@
 
 @media (max-width: 1250px) {
   .nav-links {
-    width: 8%;
+    width: 9%;
   }
   .contact-link {
     font-size: 0.9em;
@@ -82,6 +82,21 @@
   }
 }
 
+@media (max-width: 1120px) {
+   .nav-links {
+    width: 8%;
+  }
+  #m-music-section {
+    width: 92.25%;
+  }
+  .photos-container, .about-the-band-container, .members-bios-container {
+    width: 92.1%;
+  }
+  .for-promoters-container {
+    width: 80.5%;
+  }
+}
+
 @media (max-width: 1050px) {
   .nav-links {
     width: 7%;
@@ -97,8 +112,8 @@
     height: 1.8em;
     margin: 0.4em;
     border-radius: 0.5em;
-    padding: 0 0.1em 1.1em 0.1em;
-    font-size: 0.9em;
+    padding: 0 0.3em 1em 0.3em;
+    font-size: 1em;
   }
   .nav-links {
     font-size: 0.8em;
@@ -136,5 +151,58 @@
         width: 30%;
       }
     }
+  }
+  #m-music-section {
+    width: 91.6%;
+  }
+  .photos-container, .about-the-band-container, .members-bios-container {
+    width: 91.6%;
+  }
+  .for-promoters-container {
+    width: 78.4%;
+  }
+}
+
+@media (max-width: 850px) {
+  .social-icons {
+    padding: 0 0.3em 1em 0.3em;
+    font-size: 0.85em;
+  }
+  .nav-links {
+    width: 7.8%;
+    font-size: 0.8em;
+  }
+  .record-player-small > div {
+    height: 14em;
+    width: 14em;
+    margin-top: -6.5em;
+
+    & > div {
+      margin-top: -1.1em;
+      margin-left: -2.95em;
+
+      img {
+        width: 1.5em;
+      }
+    }
+
+    & > #title {
+      font-size: 1.5em;
+      margin-top: 3.6em;
+      margin-left: -0.3em;
+    }
+  }
+  #play-button, #pause-button {
+    width: 2em;
+  }
+}
+
+@media (max-width: 790px) {
+  .social-icons {
+    width: 2.3em;
+    height: 1.8em;
+    margin: 0.3em;
+    padding: 0 0.25em 1em 0.25em;
+    font-size: 0.85em;
   }
 }

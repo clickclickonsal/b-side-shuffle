@@ -12,6 +12,10 @@
 		border: none;
 		text-decoration: none;
 		color: black;
+		transition: 1s;
+		&:hover, &.active {
+			color: red;
+		}
 	}
 	.menu {
 		background: none;
@@ -38,7 +42,14 @@
 			width: 100%;
 			float: left;
 			clear: both;
-			font-size: 1.8em;
+			font-size: 2em;
+			margin-top: 0.7em;
+			& a {
+				transition: 1s;
+				&:hover {
+					color: red;
+				}
+			}
 		}
 	}
 	.social-icons {
@@ -63,45 +74,452 @@
 	#facebook {
 		right: 11.1em;
 	}
+	.first-section {
+		.signup-section > .sign-up-div {
+			h3, h2, h1 {
+				width: 41%;
+			}
+			h3 {
+				font-size: 0.75em;
+			}
+			h2 {
+				font-size: 0.95em;
+			}
+			h1 {
+				font-size: 1.35em;
+			}
+			#email-field {
+				width: 60%;
+				margin-top: 1.5em;
+			}
+			input[type=submit] {
+				margin-top: 2.4em;
+				width: 22%;
+				font-size: 0.7em;
+			}
+		}
+	}
 }
 
 @media (max-width: 640px) {
+	#media {
+		height: 69.5em;
+	}
+	#photos {
+		height: 40em;
+	}
+	#bios {
+		height: 132.2em;
+	}
+	#contact-us {
+		height: 80em;
+	}
 	.first-section {
 		& >.signup-section {
 			& > .sign-up-div {
+				width: 80%;
 				height: 9em;
 				h3, h2, h1 {
 					width: 100%;
+					margin: 0;
+					padding: 0;
 					text-align: center;
 				}
+				h3 {
+					font-size: 0.96em;
+				}
 				h2 {
-					font-size: 1.15em;
+					font-size: 1.2em;
 				}
 				h1 {
-					font-size: 2em;
+					font-size: 1.75em;
 				}
 			}
 			.sign-up-form {
-				margin-top: 0.3em;
+				margin-top: 0.5em;
 				float: left;
-				margin-left: 3em;
-				width: 80%;
+				margin-left: 5.5%;
+				width: 90%;
+				height: 2.2em;
 
-			#email-field {
-				height: 2em;
-				width: 70%;
-				float: left;
-			}
-			& > input[type=submit] {
-				height: 2.5em;
-				width: 25%;
-				font-size: 0.8em;
+				#email-field {
+					width: 70%;
+					margin: 0;
+				}
+				& > input[type=submit] {
+					margin: 0.25em;
+					width: 25%;
+					font-size: 0.8em;
 
+				}
 			}
-		}
 		}
 		& > div:first-child {
 			margin-top: 11.5em;
+			.video {
+				width: 80%;
+				height: 25em;
+			}
+		}
+	}
+	.second-part-section > .col {
+		margin-top: 1.8em;
+		.songkick {
+			width: 80%;
+			height: 16em;
+			overflow: auto;
+		}
+	} 
+
+	.twitter-feed {
+		width: 80%;
+	}
+	.second-section {
+		& > div:first-child {
+			& > #m-video-section {
+				width: 80%;
+			}
+		}
+		& > div:last-child {
+			& > #blog-container {
+				width: 80%;
+				margin-top: 2.5em;
+				height: 28em;
+				overflow: auto;
+			}
+		}
+	}
+	.third-section > .col {
+		.photos-container{
+			width: 80%;
+			height: 35em;
+
+			div > iframe {
+				width: 90%;
+				height: 30em;
+			}
+		}
+	}
+	.fourth-section {
+		& > .about-the-band-container {
+			width: 80%;
+			height: 36em;
+			overflow: auto;
+			div {
+				width: 100%;
+				margin-left: 2em;
+				color: white;
+
+				img {
+					float: left;
+					max-width: 100%;
+					width: 85%;
+					height: 12em;
+				}
+
+				p {
+					float: left;
+					margin-left: -0.95em;
+					max-width: 90%;
+					font-size: 0.9em;
+				}
+			}
+		}
+	}
+	.fourth-section-second-part {
+		& > .members-bios-container {
+			height: 87.8em;
+			width: 80%;
+
+			& > div > div {
+				& > div {
+					display: block;
+					width: 52%;
+					float: right;
+					clear: both;
+					margin-right: 1em;
+					& > div {
+						background: #EBB33A;
+						font-family: 'Quicksand', sans-serif;
+						font-size: 1.1em;
+						a {
+							display: none;
+						}
+					}
+					& > p {
+						font-size: 0.72em;
+						text-align: left;
+					}
+				}
+			}
+			div {
+				width: 100%;
+				margin-top: 0.5em;
+			}
+		}
+		img {
+			margin-top: 1em;
+		}
+	}
+
+	.last-section {
+		& > div:first-child {
+			margin: auto;
+			width: 100%;
+			& > .contact-us-container {
+				width: 80%;
+				height: 32em;
+			}
+		}
+		& > div:last-child {
+			width: 100%;
+			& > .for-promoters-container {
+				margin: 2.5em auto;
+				width: 80%;
+				height: 35em;
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	#media {
+		height: 67em;
+	}
+	#bios {
+		height: 84.5em;
+	}
+	.second-part-section > .col {
+		.songkick {
+			height: 24em;
+			div {
+				height: 6em;
+				ul {
+					// text-align: center;
+					li {
+						font-size: 1em;
+						width: 50%;
+						&:last-child {
+							width: 100%;
+							clear: both;
+							text-align: right;
+						}
+						button {
+							font-size: 0.6em;
+						}
+					}
+				}
+			}
+		}
+	}
+	.second-section {
+		& > div:first-child {
+			& > #m-video-section {
+				width: 80%;
+				height: 30em;
+				overflow: scroll;
+				iframe {
+					width: 80%;
+				}
+			}
+		}
+	}
+	.fourth-section-second-part {
+		& > .members-bios-container {
+			height: 40em;
+			width: 78%;
+			overflow: auto;
+
+			& > div > div {
+				& > div {
+					width: 90%;
+					margin: auto;
+					float: none;;
+					& > p {
+						font-size: 0.9em;
+					}
+				}
+			}
+		}
+		img {
+			width: 40%;
+		}
+	}
+}
+
+@media (max-width: 510px) {
+	#contact-us {
+		height: 82em;
+	}
+}
+
+@media (max-width: 420px) {
+	#news-section {
+		height: 73em;
+	}
+	#photos {
+		height: 35.5em;
+	}
+	#bios {
+		height: 74em;
+	}
+	#contact-us {
+		height: 76em;
+	}
+	.first-section {
+		& >.signup-section > .sign-up-div {
+			width: 72%;
+		}
+		& > div:first-child {
+			.video {
+				width: 72%;
+				height: 18em;
+			}
+		}
+	}
+	.second-part-section > .col {
+		p {
+			text-align: center;
+			float: none;
+			width: 80%;
+			font-size: 1em;
+		}
+		img {
+			float: none;
+			text-align: center;
+			width: 80%;
+		}
+		.songkick {
+			width: 72%;
+			height: 15em;
+			overflow: auto;
+			div {
+			}
+			ul {
+				padding: 0;
+			}
+		}
+	} 
+	.twitter-feed {
+		width: 72%;
+	}
+	.second-section {
+		& > div:first-child {
+			& > #m-video-section {
+				width: 72%;
+			}
+		}
+		& > div:last-child {
+			& > #blog-container {
+				width: 72%;
+			}
+		}
+	}
+	.third-section > .col {
+		.photos-container{
+			width: 72%;
+			height: 31em;
+
+			div > iframe {
+				height: 26em;
+			}
+		}
+	}
+	.second-section {
+		& > div:first-child {
+			& > #m-video-section {
+				width: 72%;
+			}
+		}
+	}
+	.fourth-section-second-part {
+		& > .members-bios-container {
+			height: 38em;
+			width: 72%;
+			overflow: auto;
+		}
+	}
+	.fourth-section {
+		& > .about-the-band-container {
+			width: 72%;
+			height: 28em;
+			p {
+				font-size: 1.2em;
+				margin: 0;
+			}
+			img {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+	.last-section {
+		& > div:first-child {
+			& > .contact-us-container {
+				width: 72%;
+				div .first-4-inputs {
+					width: 95%;
+				}
+				p {
+					width: 80%;
+					margin: 0 1em;
+				}
+			}
+		}
+		& > div:last-child {
+			& > .for-promoters-container {
+				height: 28em;
+				width: 72%;
+				p {
+				}
+				.logos button, .fonts button {
+					font-size: 0.8em;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	#photos {
+		height: 30.5em;
+	}
+	.social-icons {
+		font-size: 1.05em;
+	}
+	.first-section {
+		.signup-section > .sign-up-div {
+			h3 {
+				font-size: 0.70em;
+				margin-top: 1.3em;
+			}
+			h2 {
+				font-size: 0.85em;
+			}
+			h1 {
+				font-size: 1.25em;
+			}
+			#email-field {
+				height: 1.6em;
+				width: 60%;
+				margin-top: 0.8em;
+			}
+			input[type=submit] {
+				margin-top: 1.6em;
+				font-size: 0.6em;
+			}
+		}
+		& > div:first-child > .video > p{
+			font-size: 1em;
+		}
+	}
+	.third-section > .col {
+		.photos-container{
+			height: 26em;
+
+			div > iframe {
+				height: 20em;
+			}
 		}
 	}
 }
