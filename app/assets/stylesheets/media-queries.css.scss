@@ -86,6 +86,15 @@
    .nav-links {
     width: 8%;
   }
+  #m-music-section {
+    width: 92.25%;
+  }
+  .photos-container, .about-the-band-container, .members-bios-container {
+    width: 92.1%;
+  }
+  .for-promoters-container {
+    width: 80.5%;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -142,6 +151,15 @@
         width: 30%;
       }
     }
+  }
+  #m-music-section {
+    width: 91.6%;
+  }
+  .photos-container, .about-the-band-container, .members-bios-container {
+    width: 91.6%;
+  }
+  .for-promoters-container {
+    width: 78.4%;
   }
 }
 
