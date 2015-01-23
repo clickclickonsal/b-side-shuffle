@@ -284,8 +284,11 @@
 }
 
 @media (max-width: 600px) {
+	#media {
+		height: 67em;
+	}
 	#bios {
-		height: 182em;
+		height: 84.5em;
 	}
 	.second-part-section > .col {
 		.songkick {
@@ -310,9 +313,21 @@
 			}
 		}
 	}
+	.second-section {
+		& > div:first-child {
+			& > #m-video-section {
+				width: 80%;
+				height: 30em;
+				overflow: scroll;
+				iframe {
+					width: 80%;
+				}
+			}
+		}
+	}
 	.fourth-section-second-part {
 		& > .members-bios-container {
-			height: 138em;
+			height: 40em;
 			width: 78%;
 			overflow: auto;
 
@@ -340,6 +355,9 @@
 }
 
 @media (max-width: 360px) {
+	#photos {
+		height: 30.5em;
+	}
 	.first-section {
 		.signup-section > .sign-up-div {
 			h3, h2, h1 {
@@ -362,8 +380,18 @@
 			}
 			input[type=submit] {
 				margin-top: 1.6em;
-				// width: 22%;
 				font-size: 0.6em;
+			}
+		}
+	}
+	.third-section > .col {
+		.photos-container{
+			width: 80%;
+			height: 26em;
+
+			div > iframe {
+				width: 90%;
+				height: 20em;
 			}
 		}
 	}
