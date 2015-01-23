@@ -66,12 +66,20 @@
 }
 
 @media (max-width: 640px) {
+	#photos {
+		height: 41em;
+	}
+	#bios {
+		height: 126em;
+	}
 	.first-section {
 		& >.signup-section {
+			width: 88%;
+			margin-left: 3.1em;
 			& > .sign-up-div {
 				height: 9em;
 				h3, h2, h1 {
-					width: 100%;
+					width: 90%;
 					text-align: center;
 				}
 				h2 {
@@ -87,21 +95,135 @@
 				margin-left: 3em;
 				width: 80%;
 
-			#email-field {
-				height: 2em;
-				width: 70%;
-				float: left;
-			}
-			& > input[type=submit] {
-				height: 2.5em;
-				width: 25%;
-				font-size: 0.8em;
+				#email-field {
+					height: 2em;
+					width: 70%;
+					float: left;
+				}
+				& > input[type=submit] {
+					height: 2.5em;
+					width: 25%;
+					font-size: 0.8em;
 
+				}
 			}
-		}
 		}
 		& > div:first-child {
+			width: 88%;
 			margin-top: 11.5em;
+		}
+	}
+	.second-part-section > .col {
+		width: 88%;
+		margin-top: 1.8em;
+		.songkick {
+		}
+	} 
+
+	.twitter-feed {
+		width: 95.5%;
+	}
+	.second-section {
+		& > div:first-child {
+			width: 90.7%;
+
+			& > #m-video-section {
+				margin-left: 3.2em;
+			}
+		}
+		& > div:last-child {
+			width: 90%;
+
+			& > #blog-container {
+				margin-top: 1em;
+				margin-left: 2em;
+				width: 92.4%;
+				height: 28em;
+			}
+		}
+	}
+	.third-section > .col {
+		width: 90.8%;
+		.photos-container{
+			margin-left: 2.6em;
+			height: 36em;
+
+			div > iframe {
+				width: 90%;
+				height: 30em;
+			}
+		}
+	}
+	.fourth-section {
+		width: 90.5%;
+		& > .about-the-band-container {
+			margin-left: 2.7em;
+			height: 36em;
+
+			div {
+				width: 100%;
+				margin-left: 2em;
+				color: white;
+
+				img {
+					float: left;
+					max-width: 100%;
+					width: 85%;
+					height: 12em;
+				}
+
+				p {
+					float: left;
+					margin-left: -0.95em;
+					max-width: 90%;
+					font-size: 0.9em;
+				}
+			}
+		}
+
+	}
+	.fourth-section-second-part {
+		width: 90.5%;
+		& > .members-bios-container {
+			margin-left: 2.7em;
+			height: 82.5em;
+			width: 92.6%;
+
+			& > p {
+				font-size: 1.5em;
+			}
+			& > div > div {
+				// margin-right: 0.8em;
+				& > div {
+					display: block;
+					width: 52%;
+					float: right;
+					clear: both;
+					margin-right: 1em;
+					& > div {
+						background: #EBB33A;
+						font-family: 'Quicksand', sans-serif;
+						font-size: 1.1em;
+						a {
+							display: none;
+						}
+					}
+					& > p {
+						font-size: 0.75em;
+						text-align: left;
+					}
+				}
+				& > .member-photos > img{
+					max-height: 300px;
+				}
+			}
+			div {
+				width: 100%;
+				margin-top: 0.1em;
+			}
+		}
+		img {
+			margin-top: 0;
 		}
 	}
 }
