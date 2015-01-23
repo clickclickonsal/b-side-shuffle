@@ -72,6 +72,9 @@
 	#bios {
 		height: 126em;
 	}
+	#contact-us {
+		height: 80em;
+	}
 	.first-section {
 		& >.signup-section {
 			width: 88%;
@@ -224,6 +227,50 @@
 		}
 		img {
 			margin-top: 0;
+		}
+	}
+
+	.last-section {
+		& > div:first-child {
+			width: 83.2%;
+			& > .contact-us-container {
+				margin-left: 2.8em;
+				width: 100%;
+				height: 32em;
+			}
+		}
+		& > div:last-child {
+			width: 90%;
+			& > .for-promoters-container {
+				width: 91.6%;
+				margin-left: 2.4em;
+				height: 35em;
+				& > h1 {
+					font-size: 1.5em;
+				}
+				& > p {
+					font-size: 0.8em;
+				}
+				& > .logos {
+					img {
+						width: 25%;	
+					}
+					button {
+						font-size: 1em;
+						border-radius: 0.4em;
+					}
+				}
+				& > .fonts {
+					padding-top: 4em;
+					img {
+						width: 40%;
+					}
+					button {
+						font-size: 1em;
+						border-radius: 0.4em;
+					}
+				}
+			}
 		}
 	}
 }
