@@ -216,8 +216,10 @@
 						text-align: left;
 					}
 				}
-				& > .member-photos > img{
-					max-height: 300px;
+				& > .member-photos {
+					 img {
+						max-height: 300px;
+					}
 				}
 			}
 			div {

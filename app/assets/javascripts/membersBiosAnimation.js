@@ -1,7 +1,9 @@
 $(document).ready(function() {
   $(".member-photos img").on("click", $(this), function(event){
   	event.preventDefault();
-
+    if(window.innerWidth < 640) {
+      return;
+    }
   	if($(".members-bios-container").hasClass("members-bios-container-js")){
   		$(".members-bios-container").removeClass("members-bios-container-js");
   	}
