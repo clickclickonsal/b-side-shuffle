@@ -167,6 +167,7 @@
 		.songkick {
 			width: 80%;
 			height: 16em;
+			overflow: auto;
 		}
 	} 
 
@@ -184,6 +185,7 @@
 				width: 80%;
 				margin-top: 2.5em;
 				height: 28em;
+				overflow: auto;
 			}
 		}
 	}
@@ -202,7 +204,7 @@
 		& > .about-the-band-container {
 			width: 80%;
 			height: 36em;
-
+			overflow: auto;
 			div {
 				width: 100%;
 				margin-left: 2em;
@@ -276,6 +278,92 @@
 				margin: 2.5em auto;
 				width: 80%;
 				height: 35em;
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	#bios {
+		height: 182em;
+	}
+	.second-part-section > .col {
+		.songkick {
+			height: 24em;
+			div {
+				height: 6em;
+				ul {
+					// text-align: center;
+					li {
+						font-size: 1em;
+						width: 50%;
+						&:last-child {
+							width: 100%;
+							clear: both;
+							text-align: right;
+						}
+						button {
+							font-size: 0.6em;
+						}
+					}
+				}
+			}
+		}
+	}
+	.fourth-section-second-part {
+		& > .members-bios-container {
+			height: 138em;
+			width: 78%;
+			overflow: auto;
+
+			& > div > div {
+				& > div {
+					width: 90%;
+					margin: auto;
+					float: none;;
+					& > p {
+						font-size: 0.9em;
+					}
+				}
+			}
+		}
+		img {
+			width: 40%;
+		}
+	}
+}
+
+@media (max-width: 510px) {
+	#contact-us {
+		height: 82em;
+	}
+}
+
+@media (max-width: 360px) {
+	.first-section {
+		.signup-section > .sign-up-div {
+			h3, h2, h1 {
+				// width: 100%;
+			}
+			h3 {
+				font-size: 0.70em;
+				margin-top: 1.3em;
+			}
+			h2 {
+				font-size: 0.85em;
+			}
+			h1 {
+				font-size: 1.25em;
+			}
+			#email-field {
+				height: 1.6em;
+				width: 60%;
+				margin-top: 0.8em;
+			}
+			input[type=submit] {
+				margin-top: 1.6em;
+				// width: 22%;
+				font-size: 0.6em;
 			}
 		}
 	}
