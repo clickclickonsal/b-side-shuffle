@@ -225,7 +225,6 @@
 				}
 			}
 		}
-
 	}
 	.fourth-section-second-part {
 		& > .members-bios-container {
@@ -354,15 +353,139 @@
 	}
 }
 
+@media (max-width: 420px) {
+	#news-section {
+		height: 73em;
+	}
+	#photos {
+		height: 35.5em;
+	}
+	#bios {
+		height: 74em;
+	}
+	#contact-us {
+		height: 76em;
+	}
+	.first-section {
+		& >.signup-section > .sign-up-div {
+			width: 72%;
+		}
+		& > div:first-child {
+			.video {
+				width: 72%;
+				height: 18em;
+			}
+		}
+	}
+	.second-part-section > .col {
+		p {
+			text-align: center;
+			float: none;
+			width: 80%;
+			font-size: 1em;
+		}
+		img {
+			float: none;
+			text-align: center;
+			width: 80%;
+		}
+		.songkick {
+			width: 72%;
+			height: 15em;
+			overflow: auto;
+			div {
+			}
+			ul {
+				padding: 0;
+			}
+		}
+	} 
+	.twitter-feed {
+		width: 72%;
+	}
+	.second-section {
+		& > div:first-child {
+			& > #m-video-section {
+				width: 72%;
+			}
+		}
+		& > div:last-child {
+			& > #blog-container {
+				width: 72%;
+			}
+		}
+	}
+	.third-section > .col {
+		.photos-container{
+			width: 72%;
+			height: 31em;
+
+			div > iframe {
+				height: 26em;
+			}
+		}
+	}
+	.second-section {
+		& > div:first-child {
+			& > #m-video-section {
+				width: 72%;
+			}
+		}
+	}
+	.fourth-section-second-part {
+		& > .members-bios-container {
+			height: 38em;
+			width: 72%;
+			overflow: auto;
+		}
+	}
+	.fourth-section {
+		& > .about-the-band-container {
+			width: 72%;
+			height: 28em;
+			p {
+				font-size: 1.2em;
+				margin: 0;
+			}
+			img {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+	.last-section {
+		& > div:first-child {
+			& > .contact-us-container {
+				width: 72%;
+				div .first-4-inputs {
+					width: 95%;
+				}
+				p {
+					width: 80%;
+					margin: 0 1em;
+				}
+			}
+		}
+		& > div:last-child {
+			& > .for-promoters-container {
+				height: 28em;
+				width: 72%;
+				p {
+				}
+				.logos button, .fonts button {
+					font-size: 0.8em;
+				}
+			}
+		}
+	}
+}
+
 @media (max-width: 360px) {
 	#photos {
 		height: 30.5em;
 	}
 	.first-section {
 		.signup-section > .sign-up-div {
-			h3, h2, h1 {
-				// width: 100%;
-			}
 			h3 {
 				font-size: 0.70em;
 				margin-top: 1.3em;
@@ -386,11 +509,9 @@
 	}
 	.third-section > .col {
 		.photos-container{
-			width: 80%;
 			height: 26em;
 
 			div > iframe {
-				width: 90%;
 				height: 20em;
 			}
 		}
