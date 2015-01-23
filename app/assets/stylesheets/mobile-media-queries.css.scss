@@ -276,3 +276,37 @@
 		}
 	}
 }
+
+@media (max-width: 570px) {
+	#bios {
+		height: 113.5em;
+	}
+	.fourth-section-second-part > .members-bios-container {
+		height: 70em;
+		& > div > div {
+			& > .member-photos > img {
+				width: 35%;
+			}
+			& > div > p {
+				font-size: 0.65em;
+			}
+		}
+	}
+}
+
+@media (max-width: 520px) {
+	#bios {
+		height: 120em;
+	}
+	.fourth-section-second-part > .members-bios-container {
+		height: 76.5em;
+		& > div > div {
+			& > .member-photos > img {
+				width: 35%;
+			}
+			& > div > p {
+				font-size: 0.65em;
+			}
+		}
+	}
+}
