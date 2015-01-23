@@ -5,16 +5,17 @@ $(document).ready(function(){
     directionThreshold: 100,
     slideSpeed: 500,
     onActivate: function(){
+      var viewPortWidth = window.innerWidth;
       if( $(".active").hasClass("last-page") ){
         $("header").slideDown();
         $("#wrapper").panelSnap('disable');
         $("#up-button").slideDown();
 
-        if( $(".active").hasClass("news") ){
+        if( ($(".active").hasClass("news")) && (viewPortWidth > 751) ){
           $('#wrapper').panelSnap('enable')
         }
       }
-      else{
+      else if($(".active").hasClass("splash-class") && viewPortWidth > 751){
         $("header").slideUp();
         $("#up-button").slideUp();
       }
@@ -24,6 +25,5 @@ $(document).ready(function(){
       wrapAround: false,
     }
   };
-
   $('#wrapper').panelSnap(options);
 });
