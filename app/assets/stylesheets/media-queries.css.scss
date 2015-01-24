@@ -86,14 +86,8 @@
    .nav-links {
     width: 8%;
   }
-  #m-music-section {
-    width: 92.25%;
-  }
-  .photos-container, .about-the-band-container, .members-bios-container {
-    width: 92.1%;
-  }
   .for-promoters-container {
-    width: 80.5%;
+    width: 81%;
   }
 }
 
@@ -152,14 +146,8 @@
       }
     }
   }
-  #m-music-section {
-    width: 91.6%;
-  }
-  .photos-container, .about-the-band-container, .members-bios-container {
-    width: 91.6%;
-  }
-  .for-promoters-container {
-    width: 78.4%;
+  .last-section > div:last-child > .for-promoters-container > .logos img {
+    width: 12em;
   }
 }
 
@@ -194,6 +182,9 @@
   }
   #play-button, #pause-button {
     width: 2em;
+  }
+  .last-section > div:last-child > .for-promoters-container > .logos img {
+    width: 10em;
   }
 }
 

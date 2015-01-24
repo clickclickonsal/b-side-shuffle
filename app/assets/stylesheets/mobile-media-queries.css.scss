@@ -112,7 +112,7 @@
 		height: 132.2em;
 	}
 	#contact-us {
-		height: 80em;
+		height: 82em;
 	}
 	.first-section {
 		& >.signup-section {
@@ -256,6 +256,12 @@
 				margin: 2.5em auto;
 				width: 92%;
 				height: 35em;
+				& .logos img {
+			    width: 25%;
+			  }
+			  & > .fonts > img {
+					width: 30%;
+				}
 			}
 		}
 	}
