@@ -344,11 +344,11 @@
 	}
 	.first-section {
 		& >.signup-section > .sign-up-div {
-			width: 72%;
+			width: 88%;
 		}
 		& > div:first-child {
 			.video {
-				width: 72%;
+				width: 88%;
 				height: 18em;
 			}
 		}
@@ -357,16 +357,16 @@
 		p {
 			text-align: center;
 			float: none;
-			width: 80%;
+			width: 90%;
 			font-size: 1em;
 		}
 		img {
-			float: none;
-			text-align: center;
-			width: 80%;
+			float: right;
+			margin: -1em;
+			width: 50%;
 		}
 		.songkick {
-			width: 72%;
+			width: 88%;
 			height: 15em;
 			overflow: auto;
 			div {
@@ -377,23 +377,21 @@
 		}
 	} 
 	.twitter-feed {
-		width: 72%;
+		width: 88%;
 	}
 	.second-section {
-		& > div:first-child {
-			& > #m-video-section {
-				width: 72%;
-			}
+		& > div:first-child > #m-video-section {
+			width: 88%;
 		}
 		& > div:last-child {
 			& > #blog-container {
-				width: 72%;
+				width: 88%;
 			}
 		}
 	}
 	.third-section > .col {
 		.photos-container{
-			width: 72%;
+			width: 88%;
 			height: 31em;
 
 			div > iframe {
@@ -401,23 +399,16 @@
 			}
 		}
 	}
-	.second-section {
-		& > div:first-child {
-			& > #m-video-section {
-				width: 72%;
-			}
-		}
-	}
 	.fourth-section-second-part {
 		& > .members-bios-container {
 			height: 38em;
-			width: 72%;
+			width: 88%;
 			overflow: auto;
 		}
 	}
 	.fourth-section {
 		& > .about-the-band-container {
-			width: 72%;
+			width: 88%;
 			height: 28em;
 			p {
 				font-size: 1.2em;
@@ -432,7 +423,7 @@
 	.last-section {
 		& > div:first-child {
 			& > .contact-us-container {
-				width: 72%;
+				width: 88%;
 				div .first-4-inputs {
 					width: 95%;
 				}
@@ -445,7 +436,7 @@
 		& > div:last-child {
 			& > .for-promoters-container {
 				height: 28em;
-				width: 72%;
+				width: 88%;
 				p {
 				}
 				.logos button, .fonts button {
