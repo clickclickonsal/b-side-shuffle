@@ -117,7 +117,6 @@
 	.first-section {
 		& >.signup-section {
 			& > .sign-up-div {
-				width: 80%;
 				height: 9em;
 				h3, h2, h1 {
 					width: 100%;
@@ -157,7 +156,6 @@
 		& > div:first-child {
 			margin-top: 11.5em;
 			.video {
-				width: 80%;
 				height: 25em;
 			}
 		}
@@ -165,44 +163,26 @@
 	.second-part-section > .col {
 		margin-top: 1.8em;
 		.songkick {
-			width: 80%;
 			height: 16em;
 			overflow: auto;
 		}
 	} 
 
-	.twitter-feed {
-		width: 80%;
-	}
 	.second-section {
-		& > div:first-child {
-			& > #m-video-section {
-				width: 80%;
-			}
-		}
-		& > div:last-child {
-			& > #blog-container {
-				width: 80%;
-				margin-top: 2.5em;
-				height: 28em;
-				overflow: auto;
-			}
+		& > div:last-child > #blog-container {
+			overflow: auto;
 		}
 	}
 	.third-section > .col {
 		.photos-container{
-			width: 80%;
 			height: 35em;
-
 			div > iframe {
-				width: 90%;
 				height: 30em;
 			}
 		}
 	}
 	.fourth-section {
 		& > .about-the-band-container {
-			width: 80%;
 			height: 36em;
 			overflow: auto;
 			div {
@@ -229,7 +209,6 @@
 	.fourth-section-second-part {
 		& > .members-bios-container {
 			height: 87.8em;
-			width: 80%;
 
 			& > div > div {
 				& > div {
@@ -267,7 +246,7 @@
 			margin: auto;
 			width: 100%;
 			& > .contact-us-container {
-				width: 80%;
+				width: 92%;
 				height: 32em;
 			}
 		}
@@ -275,7 +254,7 @@
 			width: 100%;
 			& > .for-promoters-container {
 				margin: 2.5em auto;
-				width: 80%;
+				width: 92%;
 				height: 35em;
 			}
 		}
@@ -295,7 +274,6 @@
 			div {
 				height: 6em;
 				ul {
-					// text-align: center;
 					li {
 						font-size: 1em;
 						width: 50%;
@@ -315,7 +293,6 @@
 	.second-section {
 		& > div:first-child {
 			& > #m-video-section {
-				width: 80%;
 				height: 30em;
 				overflow: scroll;
 				iframe {
@@ -327,7 +304,6 @@
 	.fourth-section-second-part {
 		& > .members-bios-container {
 			height: 40em;
-			width: 78%;
 			overflow: auto;
 
 			& > div > div {
