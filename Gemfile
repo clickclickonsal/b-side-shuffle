@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
+gem 'newrelic_rpm'
 gem "autoprefixer-rails"
 gem "font-awesome-rails"
 gem "devise"
