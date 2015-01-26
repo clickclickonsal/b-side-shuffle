@@ -21,3 +21,4 @@
 //= require contactUsForm
 //= require membersBiosAnimation
 //= require hamburgerJs
+//= require googleAnalytics
