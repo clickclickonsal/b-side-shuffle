@@ -7,4 +7,8 @@ $(document).ready(function() {
       fjs.parentNode.insertBefore(js,fjs);
     }
   }(document,"script","twitter-wjs");
+  $("#twitter-expand").on("click", function(){
+  	$(".twitter-feed").toggleClass("twitter-expanded");
+  	$(".news").toggleClass("news-expanded");
+  })
 });

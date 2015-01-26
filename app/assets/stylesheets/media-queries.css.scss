@@ -183,6 +183,9 @@
   #play-button, #pause-button {
     width: 2em;
   }
+  .second-section > .col > #blog-container {
+    overflow: scroll;
+  }
   .last-section > div:last-child > .for-promoters-container > .logos img {
     width: 10em;
   }

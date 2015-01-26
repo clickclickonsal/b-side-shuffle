@@ -148,6 +148,9 @@ $paragraph-font: 'Quicksand', sans-serif;
 		text-align: center;
 		float: left;
 
+		button {
+			display: none;
+		}
 		p {
 			text-align: left;
 			color: white;

@@ -1,6 +1,6 @@
 @media (max-width: 680px) {
 	#news-section {
-		height: 88em;
+		height: 84.5em;
 	}
 
 	.hamburger-icon {
@@ -99,9 +99,44 @@
 			}
 		}
 	}
+	.twitter-feed {
+		transition: 1s;
+		p {
+			width: 75%;
+			float: left;
+		}
+		button {
+			float: left;
+			display: inline;
+			margin-top: 0.4em;
+			background: #EBB33A;
+			border-radius: 0.4em;
+			color: white;
+			font-family: "Quicksand", sans-serif;
+			font-size: 1.1em;
+		}
+		.twitter-timeline {
+			transition: 1s;
+		}
+	}
+	.news {
+		transition: 1s;
+	}
+	.twitter-expanded {
+		height: 26em;
+		.twitter-timeline {
+			height: 21.5em;
+		}
+	}
+	.news-expanded {
+		height: 95em !important;
+	}
 }
 
 @media (max-width: 640px) {
+	#news-section {
+		height: 80.5em;
+	}
 	#media {
 		height: 69.5em;
 	}
@@ -159,6 +194,15 @@
 				height: 25em;
 			}
 		}
+	}
+	.twitter-expanded {
+		height: 26em;
+		.twitter-timeline {
+			height: 21.5em;
+		}
+	}
+	.news-expanded {
+		height: 91.5em !important;
 	}
 	.second-part-section > .col {
 		margin-top: 1.8em;
@@ -268,11 +312,23 @@
 }
 
 @media (max-width: 600px) {
+	#news-section {
+		height: 88.5em;
+	}
 	#media {
 		height: 67em;
 	}
 	#bios {
 		height: 84.5em;
+	}
+	.twitter-expanded {
+		height: 26em;
+		.twitter-timeline {
+			height: 21.5em ;
+		}
+	}
+	.news-expanded {
+		height: 99em !important;
 	}
 	.second-part-section > .col {
 		.songkick {
@@ -333,6 +389,11 @@
 	#contact-us {
 		height: 82em;
 	}
+	.twitter-feed {
+		p {
+			width: 70%;
+		}
+	}
 }
 
 @media (max-width: 420px) {
@@ -360,21 +421,21 @@
 		}
 	}
 	.second-part-section > .col {
-		p {
-			text-align: center;
-			float: none;
-			width: 90%;
-			font-size: 1em;
-		}
-		img {
-			float: right;
-			margin: -1em;
-			width: 50%;
-		}
 		.songkick {
 			width: 88%;
 			height: 15em;
 			overflow: auto;
+			p {
+				text-align: center;
+				float: none;
+				width: 90%;
+				font-size: 1em;
+			}
+			img {
+				float: right;
+				margin: -1em;
+				width: 50%;
+			}
 			div {
 			}
 			ul {
@@ -384,6 +445,17 @@
 	} 
 	.twitter-feed {
 		width: 88%;
+		p {
+			font-size: 0.9em;
+			width: 50%;
+		}
+		button {
+			margin-top: 0.2em;
+			width: 40%;
+		}
+	}
+	.news-expanded {
+		height: 83.5em !important;
 	}
 	.second-section {
 		& > div:first-child > #m-video-section {
