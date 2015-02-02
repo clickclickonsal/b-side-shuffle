@@ -39,6 +39,7 @@ $paragraph-font: 'Quicksand', sans-serif;
 	height: 33em;
 	background: $bg-div-color;
 	font-family: $paragraph-font;
+	overflow: scroll;
 
 	p {
 		margin: 0;
